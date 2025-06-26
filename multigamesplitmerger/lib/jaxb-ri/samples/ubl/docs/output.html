@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only ("GPL") or the Common Development
+    and Distribution License("CDDL") (collectively, the "License").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://oss.oracle.com/licenses/CDDL+GPL-1.1
+    or LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the "Classpath"
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    "Portions Copyright [year] [name of copyright owner]"
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding "[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license."  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+-->
+
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- $Id: output.html,v 1.1 2007-12-05 00:49:45 kohsuke Exp $ -->
+<html>
+<head>
+<meta content=
+"HTML Tidy for Cygwin (vers 1st February 2003), see www.w3.org"
+name="generator">
+<title>Ant Output</title>
+</head>
+<body>
+<pre>
+Buildfile: build.xml
+
+<a name="compile">compile:</a>
+     [echo] Compiling the schema...
+    [mkdir] Created dir: C:\cygwin\files\sunsw.wpts\jaxb-ri\dist\samples\ubl\gen-src
+      [xjc] Compiling file:/C:/cygwin/files/sunsw.wpts/jaxb-ri/dist/samples/ubl/cd-UBL-1.0/xsd/codelist/UBL-CodeList-AcknowledgementResponseCode-1.0.xsd and others
+      [xjc] Writing output to C:\cygwin\files\sunsw.wpts\jaxb-ri\dist\samples\ubl\gen-src
+     [echo] Compiling the java source files...
+    [mkdir] Created dir: C:\cygwin\files\sunsw.wpts\jaxb-ri\dist\samples\ubl\classes
+    [javac] Compiling 1166 source files to C:\cygwin\files\sunsw.wpts\jaxb-ri\dist\samples\ubl\classes
+     [copy] Copying 54 files to C:\cygwin\files\sunsw.wpts\jaxb-ri\dist\samples\ubl\classes
+
+<a name="run">run:</a>
+     [echo] Running the sample application...
+     [java]          Joes Office Supply
+     [java]          32 W. Lakeshore Dr
+     [java]          Chicago, IL  60022
+
+     [java] Date: January 23, 2003
+
+     [java] Sold To: Bills Microdevices
+     [java]          c/o Bills Microdevices
+     [java]          413 Spring St
+     [java]          Elgin, IL  60123
+
+     [java] 1. Part No.: 32145-12
+     [java]    Description: Pencils, box #2 red
+     [java]    Price: $2.50
+     [java]    Qty.: 5
+     [java]    Subtotal: $12.50
+
+     [java] 2. Part No.: 78-697-24
+     [java]    Description: Photocopy Paper- case
+     [java]    Price: $30.00
+     [java]    Qty.: 10
+     [java]    Subtotal: $300.00
+
+     [java] 3. Part No.: 091356-3
+     [java]    Description: Pens, box, blue finepoint
+     [java]    Price: $5.00
+     [java]    Qty.: 10
+     [java]    Subtotal: $50.00
+
+     [java] 4. Part No.: 543-165-1
+     [java]    Description: Tape, 1in case
+     [java]    Price: $12.50
+     [java]    Qty.: 3
+     [java]    Subtotal: $37.50
+
+     [java] 5. Part No.: 984567-12
+     [java]    Description: Staples, wire, box
+     [java]    Price: $1.00
+     [java]    Qty.: 10
+     [java]    Subtotal: $10.00
+
+     [java] 6. Part No.: 091344-5
+     [java]    Description: Pens, box red felt tip 
+     [java]    Price: $5.00
+     [java]    Qty.: 5
+     [java]    Subtotal: $25.00
+
+     [java] 7. Part No.: 21457-3
+     [java]    Description: Mousepad, blue
+     [java]    Price: $0.50
+     [java]    Qty.: 12
+     [java]    Subtotal: $6.00
+
+     [java] Total: $441.00
+
+BUILD SUCCESSFUL
+Total time: 1 minute 17 seconds
+</pre>
+</body>
+</html>
