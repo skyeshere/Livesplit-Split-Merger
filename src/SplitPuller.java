@@ -113,5 +113,7 @@ public class SplitPuller
         {
             System.out.println(splits_array.get(i).getSplitName() + " : " + splits_array.get(i).getSplitGold());
         }
+
+        return splits_array;
     }
 }
