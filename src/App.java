@@ -1,17 +1,26 @@
 public class App 
 {
-    public static void main(String[] args)
+    public App(String [] args)
     {
-        /*if(args.length < 2)
-        {
-            System.err.println("Please provide two or more split files to merge");
-            System.exit(1);
-        }
-            */
+        SplitMerger sm = new SplitMerger();
 
         for(String file : args)
         {
             SplitPuller sp = new SplitPuller(file); 
+            sm.queueAdd(sp.pullSplitDetails());
         }
+
+        sm.printQueue();
+    }
+    public static void main(String[] args)
+    {
+        if(args.length < 3)
+        {
+            System.err.println("Usage: [two or more .lss files] [empty split file]" + "\n" +
+                               "e.g. 'game1.lss game2.lss empty.lss'");
+            System.exit(1);
+        }
+        
+        new App(args);
     }
 }
