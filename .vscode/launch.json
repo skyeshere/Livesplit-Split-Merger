@@ -10,7 +10,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args": ["src/16_star.lss", "src/242.lss"]
+            "args": ["src/16_star.lss", "src/242.lss", "src/empty.lss"]
         },
         {
             "type": "java",
@@ -18,7 +18,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "Livesplit-Split-Merger_4569fb5",
-            "args": ["src/16_star.lss", "src/242.lss"]
+            "args": ["src/16_star.lss", "src/242.lss", "src/empty.lss"]
         }
     ]
 }
