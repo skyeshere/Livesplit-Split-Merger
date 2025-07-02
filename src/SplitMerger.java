@@ -13,6 +13,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
@@ -39,12 +40,6 @@ public class SplitMerger
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("src/empty.lss");
 
-            //pretty print the document to a string
-            InputStream is = getClass().getResourceAsStream("/empty.lss");
-            String  xmlString = new String(is.readAllBytes());
-
-            System.out.println(prettyPrintByTransformer(xmlString, 2, true));
-
             NodeList run = doc.getElementsByTagName("Run");
             
             for(int q = 0; q < run.getLength(); q++)
@@ -56,8 +51,15 @@ public class SplitMerger
                     if(segments_list.item(p).getNodeName().equals("Segments"))
                     {
                         //remove the initial segment node
-                        segments_list.item(p).getParentNode().removeChild(segments_list.item(p));
-                        System.out.println("found empty segment");
+                        for(int r = 0; r < segments_list.item(p).getChildNodes().getLength(); r++)
+                        {
+                            Node s = segments_list.item(p).getChildNodes().item(r);
+                            if(segments_list.item(p).getChildNodes().item(r).getNodeName().equals("Segment"))
+                            {
+                                segments_list.item(p).removeChild(s); 
+                                break;
+                            }
+                        }
                         break;
                     }
                 }
@@ -79,11 +81,22 @@ public class SplitMerger
                     //add a gameswitch segment
                 }
             }
+
+            /* 
+            ransformerFactory tff = TransformerFactory.newInstance();
+            Transformer tf = tff.newTransformer();
+            DOMSource source = new DOMSource(doc);
+
+            StreamResult result = new StreamResult("src/empty.lss");
+            tf.transform(source, result);
+            */
         }
         catch(Exception e)
         {
             e.printStackTrace();
         }
+
+        
         
     }
 
@@ -110,25 +123,4 @@ public class SplitMerger
     {
         return this.splits_queue.get(i);
     }
-
-    public static String prettyPrintByTransformer(String xmlString, int indent, boolean ignoreDeclaration) {
-
-    try {
-        InputSource src = new InputSource(new StringReader(xmlString));
-        Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(src);
-
-        TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        transformerFactory.setAttribute("indent-number", indent);
-        Transformer transformer = transformerFactory.newTransformer();
-        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, ignoreDeclaration ? "yes" : "no");
-        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-
-        Writer out = new StringWriter();
-        transformer.transform(new DOMSource(document), new StreamResult(out));
-        return out.toString();
-    } catch (Exception e) {
-        throw new RuntimeException("Error occurs when pretty-printing xml:\n" + xmlString, e);
-    }
-}
 }

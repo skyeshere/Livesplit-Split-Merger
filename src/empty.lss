@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Run version="1.7.0">
-  <GameIcon />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Run version="1.7.0">
+  <GameIcon/>
   <GameName>
   </GameName>
   <CategoryName>
@@ -8,28 +7,19 @@
   <LayoutPath>
   </LayoutPath>
   <Metadata>
-    <Run id="" />
+    <Run id=""/>
     <Platform usesEmulator="False">
     </Platform>
     <Region>
     </Region>
-    <Variables />
-    <CustomVariables />
+    <Variables/>
+    <CustomVariables/>
   </Metadata>
   <Offset>00:00:00</Offset>
   <AttemptCount>0</AttemptCount>
-  <AttemptHistory />
+  <AttemptHistory/>
   <Segments>
-    <Segment>
-      <Name>
-      </Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime />
-      <SegmentHistory />
-    </Segment>
+    
   </Segments>
-  <AutoSplitterSettings />
+  <AutoSplitterSettings/>
 </Run>
