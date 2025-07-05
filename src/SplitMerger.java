@@ -67,6 +67,14 @@ public class SplitMerger
                 for(Split split : splits)
                 {
                     System.out.println("Merging: " + split.split_name);
+                    for(int j = 0; j < run.getLength(); j++)
+                    {
+                        Node segs = run.item(i);
+                        if(segs.getNodeName().equals("Segments"))
+                        {
+                            //segs.appendChild();
+                        }
+                    }
                 }
 
                 //if we are on any split in the queue that isnt the last
