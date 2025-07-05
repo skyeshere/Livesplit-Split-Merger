@@ -31,24 +31,15 @@ public class SplitPuller
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(file);
 
-            NodeList run = doc.getElementsByTagName("Run");
-
+            NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
             for(int i = 0; i < run.getLength(); i++)
             {
-                Node r = run.item(i);
-                if(r.getNodeType() == Node.ELEMENT_NODE)
+                if(run.item(i).getNodeName().equals("Segments"))
                 {
-                    NodeList segments_list = r.getChildNodes();
-
-                    for(int j = 0; j < segments_list.getLength(); j++)
-                    {
-                        Node s = segments_list.item(j);
-
-                        if(s.getNodeType() == Node.ELEMENT_NODE && s.getNodeName().equals("Segments"))
-                            return s.getChildNodes();
-                    }
+                    return run.item(i).getChildNodes();
                 }
             }
+            
         } 
         catch (ParserConfigurationException | SAXException | IOException e) 
         {

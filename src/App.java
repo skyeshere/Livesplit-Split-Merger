@@ -15,10 +15,10 @@ public class App
     }
     public static void main(String[] args)
     {
-        if(args.length < 3)
+        if(args.length < 2)
         {
-            System.err.println("Usage: [two or more .lss files] [empty split file]" + "\n" +
-                               "e.g. 'game1.lss game2.lss empty.lss'");
+            System.err.println("Usage: [two or more .lss files]" + "\n" +
+                               "e.g. 'game1.lss game2.lss'");
             System.exit(1);
         }
         

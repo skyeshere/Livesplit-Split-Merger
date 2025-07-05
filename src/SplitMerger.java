@@ -40,59 +40,58 @@ public class SplitMerger
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("src/empty.lss");
 
-            NodeList run = doc.getElementsByTagName("Run");
-            
-            for(int q = 0; q < run.getLength(); q++)
+            NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
+
+            for(int i = 0; i < run.getLength(); i++)
             {
-                NodeList segments_list = run.item(q).getChildNodes();
-                
-                for(int p = 0; p < segments_list.getLength(); p++)
+                Node segs = run.item(i);
+                if(segs.getNodeName().equals("Segments"))
                 {
-                    if(segments_list.item(p).getNodeName().equals("Segments"))
+                    NodeList segment_list = segs.getChildNodes();
+                    for(int j = 0; j < segment_list.getLength(); j++)
                     {
-                        //remove the initial segment node
-                        for(int r = 0; r < segments_list.item(p).getChildNodes().getLength(); r++)
+                        Node seg = segment_list.item(j);
+                        if(seg.getNodeName().equals("Segment"))
                         {
-                            Node s = segments_list.item(p).getChildNodes().item(r);
-                            if(segments_list.item(p).getChildNodes().item(r).getNodeName().equals("Segment"))
-                            {
-                                segments_list.item(p).removeChild(s); 
-                                break;
-                            }
+                            segs.removeChild(seg);
+                            break;
                         }
-                        break;
                     }
+                    break;
                 }
             }
 
-
             for(int i = 0; i < splits_queue.size(); i++)
             {
-                for(int j = 0; j < getIndexedSplits(i).size(); j++)
+                ArrayList<Split> splits = splits_queue.get(i);
+                for(Split split : splits)
                 {
-                    //adds segments to a blank livesplit splits file
-
-            
+                    System.out.println("Merging: " + split.split_name);
                 }
 
                 //if we are on any split in the queue that isnt the last
                 if(i != splits_queue.size() - 1)
                 {
                     //add a gameswitch segment
+                    System.out.println("game switch!");
                 }
             }
 
-            /* 
-            ransformerFactory tff = TransformerFactory.newInstance();
+                
+
+            /*
+            TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
             DOMSource source = new DOMSource(doc);
 
             StreamResult result = new StreamResult("src/empty.lss");
             tf.transform(source, result);
             */
+            
         }
         catch(Exception e)
-        {
+        {   
+            System.err.println("Please ensure you have an empty split file named 'empty.lss' in the same folder as this jar file.");
             e.printStackTrace();
         }
 
