@@ -11,7 +11,7 @@ public class App
         }
 
         sm.printQueue();
-        sm.mergeSplits();
+sm.mergeSplits();
     }
     public static void main(String[] args)
     {

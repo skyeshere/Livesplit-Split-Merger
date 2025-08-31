@@ -1,12 +1,7 @@
-import java.io.InputStream;
-import java.io.StringReader;
-import java.io.StringWriter;
-import java.io.Writer;
 import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -15,11 +10,11 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
 
 public class SplitMerger 
 {
-    ArrayList<ArrayList<Split>> splits_queue;    
+    ArrayList<ArrayList<Split>> splits_queue;   
+    Node split_copy; 
 
     public SplitMerger()
     {
@@ -38,10 +33,13 @@ public class SplitMerger
             */
             
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse("src/empty.lss");
+            Document doc = builder.parse("empty.lss");
+            System.out.println(doc);
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
 
+
+            /*removes initial segment */
             for(int i = 0; i < run.getLength(); i++)
             {
                 Node segs = run.item(i);
@@ -53,6 +51,8 @@ public class SplitMerger
                         Node seg = segment_list.item(j);
                         if(seg.getNodeName().equals("Segment"))
                         {
+                            System.out.println("bah");
+                            split_copy = seg.cloneNode(true);
                             segs.removeChild(seg);
                             break;
                         }
@@ -64,17 +64,30 @@ public class SplitMerger
             for(int i = 0; i < splits_queue.size(); i++)
             {
                 ArrayList<Split> splits = splits_queue.get(i);
-                for(Split split : splits)
+
+                for(int j = 0; j < splits.size(); j++)
                 {
-                    System.out.println("Merging: " + split.split_name);
-                    for(int j = 0; j < run.getLength(); j++)
+                    Split split = splits.get(j);
+                    
+                    for(int k = 0; k < run.getLength(); k++)
                     {
-                        Node segs = run.item(i);
+                        Node segs = run.item(k);
                         if(segs.getNodeName().equals("Segments"))
                         {
-                            //segs.appendChild();
+                            String tmpname = split.getSplitName();
+                            String tmpgold = split.getSplitGold();
+
+                            Node newseg = split_copy.cloneNode(true);
+
+                            newseg.getAttributes().getNamedItem("Name").setTextContent(tmpname);
+                            newseg.getChildNodes().item(1).getChildNodes().item(1).setTextContent(tmpgold);
+                            segs.appendChild(newseg);
+
+                            System.out.println("Added split: " + tmpname + " with gold time: " + tmpgold);
+                            //merged split?
                         }
                     }
+                    
                 }
 
                 //if we are on any split in the queue that isnt the last
@@ -82,19 +95,16 @@ public class SplitMerger
                 {
                     //add a gameswitch segment
                     System.out.println("game switch!");
+                    
                 }
             }
 
-                
-
-            /*
             TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
             DOMSource source = new DOMSource(doc);
 
-            StreamResult result = new StreamResult("src/empty.lss");
+            StreamResult result = new StreamResult("empty.lss");
             tf.transform(source, result);
-            */
             
         }
         catch(Exception e)
@@ -102,9 +112,6 @@ public class SplitMerger
             System.err.println("Please ensure you have an empty split file named 'empty.lss' in the same folder as this jar file.");
             e.printStackTrace();
         }
-
-        
-        
     }
 
     public void queueAdd(ArrayList<Split> s)

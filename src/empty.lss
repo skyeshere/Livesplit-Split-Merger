@@ -27,7 +27,9 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
       </SplitTimes>
-      <BestSegmentTime/>
+      <BestSegmentTime>
+        <RealTime>00:00:10</RealTime>
+      </BestSegmentTime>
       <SegmentHistory />
     </Segment>
   </Segments>
