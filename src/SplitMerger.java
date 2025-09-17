@@ -28,8 +28,9 @@ public class SplitMerger
         {
             /*
             * 1. remove initial segment from blank split file
-            * 2. add new segment nodes to split file
-            * 3. after each segment, add a gameswitch segment if we are not on the last split in the queue
+            * 2. build copy of the empty split node
+            * 3. add new segment nodes to split file
+            * 4. after each segment, add a gameswitch segment if we are not on the last split in the queue
             */
             
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -57,6 +58,20 @@ public class SplitMerger
                             break;
                         }
                     }
+                    break;
+                }
+            }
+
+            /* build copy of the empty split node */
+            split_copy.appendChild(doc.createTextNode("Name"));
+            split_copy.appendChild(doc.createAttribute("BestSegmentTime"));
+            for(int i = 0; i < split_copy.getChildNodes().getLength(); i++)
+            {
+                Node child = split_copy.getChildNodes().item(i);
+                
+                if(child.getNodeName().equals("BestSegmentTime"))
+                {
+                    child.appendChild(doc.createTextNode("RealTime"));
                     break;
                 }
             }
