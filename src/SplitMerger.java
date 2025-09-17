@@ -38,7 +38,6 @@ public class SplitMerger
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
 
-
             /*removes initial segment */
             for(int i = 0; i < run.getLength(); i++)
             {
@@ -52,7 +51,8 @@ public class SplitMerger
                         if(seg.getNodeName().equals("Segment"))
                         {
                             System.out.println("bah");
-                            split_copy = seg.cloneNode(true);
+                            split_copy = seg.cloneNode(false);
+                            System.out.println(split_copy.getChildNodes().getLength());
                             segs.removeChild(seg);
                             break;
                         }
@@ -61,6 +61,7 @@ public class SplitMerger
                 }
             }
 
+            /* merge all split files, in order, into the empty split file */
             for(int i = 0; i < splits_queue.size(); i++)
             {
                 ArrayList<Split> splits = splits_queue.get(i);
@@ -77,12 +78,47 @@ public class SplitMerger
                             String tmpname = split.getSplitName();
                             String tmpgold = split.getSplitGold();
 
-                            Node newseg = split_copy.cloneNode(true);
+                            Node newseg = split_copy.cloneNode(false);
 
+                            /*
                             newseg.getAttributes().getNamedItem("Name").setTextContent(tmpname);
                             newseg.getChildNodes().item(1).getChildNodes().item(1).setTextContent(tmpgold);
                             segs.appendChild(newseg);
+                            
 
+                            for(int l = 0; l < split_copy.getChildNodes().getLength(); l++)
+                            {
+                                Node child = split_copy.getChildNodes().item(l);
+                                if(child.getNodeName().equals("Name"))
+                                {
+                                    child.setTextContent(tmpname);
+                                }
+
+                                else if(child.getNodeName().equals("BestSegmentTime"))
+                                {
+                                    for(int m = 0; m < child.getChildNodes().getLength(); m++)
+                                    {
+                                        Node grandchild = child.getChildNodes().item(m);
+                                        if(grandchild.getNodeName().equals("RealTime"))
+                                        {
+                                            grandchild.setTextContent(tmpgold);
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                                /*
+                                 * So turns out the copy of the empty segment node doesnt contain the childnodes, need to add them on their own (lame)
+                                 * literally like this
+                                 * <Segment>
+                                 * 
+                                 * </Segment>
+                                 * AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                                 * 't'is will be okay ! 
+                                 */
+                            
+                            segs.appendChild(newseg);
+                                                        
                             System.out.println("Added split: " + tmpname + " with gold time: " + tmpgold);
                             //merged split?
                         }
@@ -94,11 +130,11 @@ public class SplitMerger
                 if(i != splits_queue.size() - 1)
                 {
                     //add a gameswitch segment
-                    System.out.println("game switch!");
-                    
+                    System.out.println("game switch!"); 
                 }
             }
 
+            /* saves new splits file */
             TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
             DOMSource source = new DOMSource(doc);
@@ -109,7 +145,7 @@ public class SplitMerger
         }
         catch(Exception e)
         {   
-            System.err.println("Please ensure you have an empty split file named 'empty.lss' in the same folder as this jar file.");
+            System.err.println("An error has occurred in the merging process, please try again.");
             e.printStackTrace();
         }
     }
