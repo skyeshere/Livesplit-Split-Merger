@@ -1,6 +1,6 @@
 public class App 
 {
-    public App(String [] args)
+    public App(String[] args)
     {
         SplitMerger sm = new SplitMerger();
 
@@ -11,7 +11,7 @@ public class App
         }
 
         sm.printQueue();
-sm.mergeSplits();
+        sm.mergeSplits();
     }
     public static void main(String[] args)
     {

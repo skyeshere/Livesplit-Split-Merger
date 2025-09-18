@@ -8,6 +8,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
@@ -38,6 +39,7 @@ public class SplitMerger
             System.out.println(doc);
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
+            Node segments_node = null;
 
             /*removes initial segment */
             for(int i = 0; i < run.getLength(); i++)
@@ -46,13 +48,14 @@ public class SplitMerger
                 if(segs.getNodeName().equals("Segments"))
                 {
                     NodeList segment_list = segs.getChildNodes();
+                    segments_node = segs;
                     for(int j = 0; j < segment_list.getLength(); j++)
                     {
                         Node seg = segment_list.item(j);
                         if(seg.getNodeName().equals("Segment"))
                         {
                             System.out.println("bah");
-                            split_copy = seg.cloneNode(false);
+                            split_copy = seg.cloneNode(true);
                             System.out.println(split_copy.getChildNodes().getLength());
                             segs.removeChild(seg);
                             break;
@@ -63,92 +66,73 @@ public class SplitMerger
             }
 
             /* build copy of the empty split node */
-            split_copy.appendChild(doc.createTextNode("Name"));
-            split_copy.appendChild(doc.createAttribute("BestSegmentTime"));
-            for(int i = 0; i < split_copy.getChildNodes().getLength(); i++)
-            {
-                Node child = split_copy.getChildNodes().item(i);
-                
-                if(child.getNodeName().equals("BestSegmentTime"))
-                {
-                    child.appendChild(doc.createTextNode("RealTime"));
-                    break;
-                }
-            }
+            
+
 
             /* merge all split files, in order, into the empty split file */
-            for(int i = 0; i < splits_queue.size(); i++)
+            
+            String tmp_name = "";
+            String tmp_gold = "";
+            for(int i = 0; i < splits_queue.size(); i++) //for every game
             {
+
                 ArrayList<Split> splits = splits_queue.get(i);
-
-                for(int j = 0; j < splits.size(); j++)
+                for(int j = 0; j < splits.size(); j++) //for every split in that game
                 {
-                    Split split = splits.get(j);
-                    
-                    for(int k = 0; k < run.getLength(); k++)
+                    tmp_name = splits.get(j).getSplitName();
+                    tmp_gold = splits.get(j).getSplitGold(); 
+
+                    //combing the split_copy node for the right places to put the name and gold time
+                    for(int l = 0; l < split_copy.getChildNodes().getLength(); l++)
                     {
-                        Node segs = run.item(k);
-                        if(segs.getNodeName().equals("Segments"))
+                        Node child = split_copy.getChildNodes().item(l);
+                        if(child.getNodeName().equals("Name"))
                         {
-                            String tmpname = split.getSplitName();
-                            String tmpgold = split.getSplitGold();
+                            child.setTextContent(tmp_name);
+                        }
 
-                            Node newseg = split_copy.cloneNode(false);
-
-                            /*
-                            newseg.getAttributes().getNamedItem("Name").setTextContent(tmpname);
-                            newseg.getChildNodes().item(1).getChildNodes().item(1).setTextContent(tmpgold);
-                            segs.appendChild(newseg);
-                            
-
-                            for(int l = 0; l < split_copy.getChildNodes().getLength(); l++)
+                        else if(child.getNodeName().equals("BestSegmentTime"))
+                        {
+                            for(int m = 0; m < child.getChildNodes().getLength(); m++)
                             {
-                                Node child = split_copy.getChildNodes().item(l);
-                                if(child.getNodeName().equals("Name"))
+                                Node grandchild = child.getChildNodes().item(m);
+                                if(grandchild.getNodeName().equals("RealTime"))
                                 {
-                                    child.setTextContent(tmpname);
+                                    grandchild.setTextContent(tmp_gold);
                                 }
+                            }
+                        }
+                    }         
+                    segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
+                    
+                    if(j == splits.size() - 1 && i != splits_queue.size() - 1) //if we are at the last split of a game, but not the last game
+                    {
+                        //add a gameswitch segment
+                        for(int n = 0; n < split_copy.getChildNodes().getLength(); n++)
+                        {
+                            Node child = split_copy.getChildNodes().item(n);
+                            if(child.getNodeName().equals("Name"))
+                            {
+                                child.setTextContent("Game Switch");
+                            }
 
-                                else if(child.getNodeName().equals("BestSegmentTime"))
+                            else if(child.getNodeName().equals("BestSegmentTime"))
+                            {
+                                for(int m = 0; m < child.getChildNodes().getLength(); m++)
                                 {
-                                    for(int m = 0; m < child.getChildNodes().getLength(); m++)
+                                    Node grandchild = child.getChildNodes().item(m);
+                                    if(grandchild.getNodeName().equals("RealTime"))
                                     {
-                                        Node grandchild = child.getChildNodes().item(m);
-                                        if(grandchild.getNodeName().equals("RealTime"))
-                                        {
-                                            grandchild.setTextContent(tmpgold);
-                                            break;
-                                        }
+                                        grandchild.setTextContent("00:05:00.000");
                                     }
                                 }
                             }
-                                /*
-                                 * So turns out the copy of the empty segment node doesnt contain the childnodes, need to add them on their own (lame)
-                                 * literally like this
-                                 * <Segment>
-                                 * 
-                                 * </Segment>
-                                 * AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                                 * 't'is will be okay ! 
-                                 */
-                            
-                            segs.appendChild(newseg);
-                                                        
-                            System.out.println("Added split: " + tmpname + " with gold time: " + tmpgold);
-                            //merged split?
-                        }
+                        }         
+                        segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
                     }
-                    
-                }
-
-                //if we are on any split in the queue that isnt the last
-                if(i != splits_queue.size() - 1)
-                {
-                    //add a gameswitch segment
-                    System.out.println("game switch!"); 
                 }
             }
-
+            
             /* saves new splits file */
             TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
