@@ -1,0 +1,4875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Run version="1.7.0">
+  <GameIcon/>
+  <GameName>
+  </GameName>
+  <CategoryName>
+  </CategoryName>
+  <LayoutPath>
+  </LayoutPath>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+    <CustomVariables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory/>
+  <Segments>
+    
+  <Segment>
+      <Name>BOB (1)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.7768628</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>WF (8)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:28.6402993</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>JRB (16)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:54.5688391</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>DW (20)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:03.4273163</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>BOB (26)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:10.7786529</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>SSL (34)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:08:17.3469235</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>HMC100 (36)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:35.8555218</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>HMC (42)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:32.9072743</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>LLL (50)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:03.1130517</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>VC (52)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>CCM (59)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:46.8429509</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>BBH (66)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:56.2794414</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>DDD100 (68)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:21.6737919</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>DDD (73)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:08.1890064</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>UP (74)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:25.2273664</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>WDW (81)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:42.7533340</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>THI (88)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:52.3941082</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>TTM (96)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:20.7516789</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>SL (103)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:06.9084680</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>CLOUD (104)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:54.4744433</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>TTC (111)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:51.7926118</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>RR (119)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:37.3997592</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:48.9907497</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Game Switch</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:00.000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Gateway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:30.0346226</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Good Egg 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:48.9718274</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Good Egg 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:38.4631053</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Good Egg 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:17.6061198</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhive 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.4385332</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhive 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:23.2911477</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhive 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:29.0970528</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Loopdeeloop</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.2117785</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Terrace 1}Robot Reactor</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:34.2851490</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:13.2142891</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:43.7338909</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:10.3446143</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sling Pod</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:27.2277078</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sweet Sweet</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.2173516</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:00.2556905</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.2744927</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.7473300</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:43.9021077</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:18.5485377</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:07.7745170</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:23.9349345</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hurry-Scurry</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.7618498</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Fountain 1}Star Reactor</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:46.7828311</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:15.2308080</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:37.8310036</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:05.8666830</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:14.5218862</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.6981429</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:40.0760806</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:34.7299202</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:10.1692735</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:35.8866808</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:25.3960512</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bubble Breeze</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.5697154</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Buoy Base 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:17.9405882</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Kitchen 1}Airship Armada</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:26.5579555</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:30.8343126</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:07.3794308</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:48.6103356</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:59.3360082</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune S [3]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:51.3061118</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.8162940</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:16.2532252</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:31.8439565</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:54.7551410</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:28.4191270</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:28.4068646</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:36.3193474</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bedroom}Dark Matter Plant</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:15.0021413</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:30.5852084</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:09.4833310</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:07.6449006</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:32.9142707</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:35.3837760</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.9966785</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:18.0870095</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:17.5781006</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:34.2909546</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:56.3650956</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Engine 1}Lava Reactor</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.6750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>what the helly</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:08:22</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gateway P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:24:40.0299162</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo's Boneyard (Luigi)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:28.5823453</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Good Egg C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:06.6769359</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Good Egg L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:57.5413868</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhive C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:26.0258134</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipswitch</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:22.0138657</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Terrace 2}Good Egg P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.7742758</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.6746439</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:49.1437769</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:32.8335324</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:20.1403945</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.7196591</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:38.2697853</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:55.9887337</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Deep Dark 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:40.9783456</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Deep Dark 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:31.2328521</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Deep Dark P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:45.4311373</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Deep Dark S [1]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:40.8885279</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dreadnought C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:14.7248758</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:53.0980323</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Deep Dark C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:41.8068644</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.7025212</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:14.6215831</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Matter Splatter</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:19.1289846</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Molten P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:47.3940429</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Garden &gt;:(}Snow Cap</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:07.7937147</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Dusty Dune P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:21.2740705</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:44.3548607</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezeflame P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:23.2983021</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.1251027</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:51.2069246</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyclimb</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:25.5651872</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gusty Garden P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:00.3486978</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bedroom 2}Dusty Dune G [2]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:45.3178148</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beach Bowl P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:00.4766069</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Buoy Base S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.4268077</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ghostly P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.8782875</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Kitchen 2}Drip Drop</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:56.6687092</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Junk P (Toad)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:56.8098283</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Green</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:54.6253652</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battlerock P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:27.4357998</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Fountain 2}Battlerock L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:45.3555466</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bubble Blast</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:11.1989900</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Green part 1}Rolling Gizmo</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:17.5172261</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:55.7537635</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:36.1471845</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Toy Time P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:15.4254806</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:02.1932886</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Leaf P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:16.3580435</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.9696669</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:43.0986857</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bonefin</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:57.6055693</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sea Slide P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:09:00.2922346</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Engine 2}Sand Spiral</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:13.2729126</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Loopdeeswoop (Toad)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:48.3109590</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bigmouth</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:23.2713028</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhive L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:24.3520700</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{who even you}Honeyhive P</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:37.6193751</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>fricken packet yo</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:16.2550001</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Game Switch</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:00.000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 2 (4)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:11:03.6085279</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:16.2302515</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 4 (5)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.2085444</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bianco I} Bianco 5 (12)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:10.8088818</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 8 (14)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:39.7044849</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 7</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:55.4033703</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Gelato I} Beach Shine</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:36.8725922</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:34.3771373</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 2 (16)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.6527846</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 3 (22)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.6134455</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 4</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:23.2430949</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 5 (23)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.3663793</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 6 (36)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:54.1684560</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Pianta I} Pianta 7 (37)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:06.4792479</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 1 (39)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:55.4096841</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 2 (44)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.4736569</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 2R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:25.1987436</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 3 (48)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:48.5047427</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 4</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.7898746</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 5 (50)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.6144214</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 6 (59)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:19.2175432</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Pinna I} Pinna 7 (62)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.2518254</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Grass Pipe</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.7313126</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Delfino I} Lilypad (68)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:39.6121120</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 6</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.6678982</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bianco II} Bianco 7</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:52.3092971</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 1 (69)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.0748919</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:48.7122739</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:03.0692960</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 4 (70)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:47.2180757</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 5 (72)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:16.5309540</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 6 (77)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:08.4686536</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Sirena I} Sirena 7 (78)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:11.5707495</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 1 (80)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.6475036</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 2 (82)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:12.7440930</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:30.3628970</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 4</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:42.6779961</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 5 (86)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.4533420</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 6</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.5595929</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Noki I} Noki 7</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:50.4907734</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fladdies/Box Game 1 (88)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:01.7320113</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 1 (93)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.7097142</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 2 (94)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:40.5078093</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.0653400</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 4</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:28.0436722</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 5</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:33.8745262</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 6 (95)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:30.6656679</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Ricco I} Ricco 7 (96)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:52.4144414</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Corona Blues (106)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:07.4023969</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta Sun (107)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:18.2799174</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 100s/5 (111)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:05.1450873</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pianta 5R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:03.0948857</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Pianta II} Pianta 8 (113)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:25.1819987</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 5 (116)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:07.4282922</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 3 (118)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:03.4340752</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 100s (126)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:44.3968657</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 4 (130)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:38.8703138</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 6H (135)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:18.8441613</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 6 (139)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:26.6377998</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 2 (140)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:42.1879218</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gelato 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:30.2500113</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Gelato II} Gelato 1R (141)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:50.1807391</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pipe</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:46.3683636</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sewers/Chuckster (143)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.5123557</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Airstrip Reds (144)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:42.8027883</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Delfino 100s</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:35.5325687</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gold Bird (145)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:55.2542470</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-ACAB</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:52.7513999</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pachinko</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:10.4759623</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Underbell</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:19.5969207</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Right Bell</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:41.9333210</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Lighthouse</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:44.6696069</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Delfino II} Shine Gate</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:47.7531960</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 1 (146)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:34.3347124</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 8 (149)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:54.7763321</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 100s (164)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:39.9746828</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bianco 6R (166)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:40.6769515</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bianco III} Bianco 3R (167)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:51.0533466</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Coconuts/Pinna 6R (170)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:56.9355725</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Pinna 8</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:26.0290847</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Pinna II} Pinna 100s/8 (175)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:09.6583704</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Box Game 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:56.5775155</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Bananas/Noki 8 (181)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:06.9568350</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 100s/6 (198)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:03.7615093</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Noki 6R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.0795143</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Noki II} Noki Bird/7</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:07.3054882</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 8 (199)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.5327386</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 4R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.7864562</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sirena 2R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:06.3229255</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Sirena II} Sirena 100s (218)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:02.7165055</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Left Bell</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:48.4294432</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 2H</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:38.4378094</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 4R</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.1965057</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Ricco 100s (236)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:04.8417233</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Ricco II} Ricco 8 (240)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:10.2788693</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-RaccAttack</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:26.4526102</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Bowser} Corona Mountain</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:18.2094352</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Game Switch</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:00.000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:55.7664728</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:20.1330000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Yoshi Star 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:53.5230000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Yoshi Star 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:48.6617944</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin Dig 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:41.5810015</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin Dig 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:09.6723446</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rightside Down 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:36.6750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rightside Down S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:55.3095738</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff S [100]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:40.7228602</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fiery Flotilla 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:09.9556721</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:22.0011796</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank S [70]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:35.1752977</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:15.2512293</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls S [30]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:05.2700000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeybloom S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:21.5020000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeybloom 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:26.5224079</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Lava Lair 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:47.3330000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:05.6840000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.6860000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Masterpiece 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:00.4160000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:10.8554896</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:25.7090000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:09.9230000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beat Block 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:28.8310000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:57.0808299</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.9930000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:49.9466030</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:21.6331729</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Masterpiece C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:42.6340000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.6350000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Wild Glide 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:55.9126647</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Wild Glide L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:34.1230000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove 1 [15]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:07.4247225</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:00.3830000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:05.0830000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.3200000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fearsome Fleet 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:18.1720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sweet Mystery 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:16.0085026</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:22.9970000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:38.2460000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sweet Mystery C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.2070000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:34.0889528</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:03.1258871</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:24.3540000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gravity Gauntlet 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:42.7870000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:12.3370000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Upside Dizzy 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:17.2772662</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Upside Dizzy S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:45.3777048</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:29.8474470</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:08.6320000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:25.7590000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:32.5490000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:12.6330000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:10.5940000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fleet Glide 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:06.1620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:40.4410000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boom Bunker 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:52.7040000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Monster 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:35.3301863</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Monster 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:13.3820853</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Monster S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.4270871</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flash Black 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:02.2653195</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slimy Spring 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:18.2763774</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:51.3730000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:17.4570000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gravity Gauntlet C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:03.5230000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:00.3110000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:31.5269113</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.3944796</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:45.0930000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flash Black C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:08.3403851</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Galaxy Generator 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:08:44.2720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:10:04.2760000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:23.8190000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:01.4690000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback 2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:17.4280000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:06.6380000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt S [20]</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:23.9060000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Galaxy Generator C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:23.0740000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:58.0610000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhop 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:24.1500000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhop L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:41.9070000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:42.7770000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:38.5320000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fearsome Fleet C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:49.9130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:24.4540000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Yoshi Star C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:56.0620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip Swap 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:19.7570000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin Dig C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:32.4570000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip Swap C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:49.9480000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:56.5220000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:38.3650000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fiery Flotilla C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:11.4520000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:01.9060000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.4750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.6610000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:03.4490000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Lava Lair C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:58.6630000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:15.2280000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:32.5020000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beat Block C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:54.7270000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boom Bunker C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:09.3780000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:47.0570000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn S</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:11.2130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fleet Glide L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:20.3180000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:41.4350000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.9300000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:01.2190000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slimy Spring L</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:20.9800000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Mario Squared 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:27.8050000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Mario Squared C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:29.7950000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Coaster 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:25.1680000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Coaster C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:54.9740000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Twisty Trials 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:54.2660000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Twisty Trials C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:12.6390000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Stone Cyclone 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:04.6090000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Stone Cyclone C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.9310000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boss Blitz 1 (CMEDAL)</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:48.8930000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip Out 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:51.8920000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boss Blitz C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:36.2380000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip Out C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:53.2380000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{120 Stars}Galaxy Generator II</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:06:58.9210000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Start Greens</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:07:42.2480000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:46.9730000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:56.4350000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sky Station GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:59.6190000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Yoshi Star GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.6830000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Yoshi Star GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.6610000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip-Swap GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:29.0620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip-Swap GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.5480000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin-Dig GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:48.7040000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin-Dig GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:04.1750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Spin-Dig GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:30.4410000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rightside Down GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:35.0040000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rightside Down GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:15.4150000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.6160000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:01.4250000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fluffy Bluff GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:02.4490000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fiery Flotilla GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.9750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fiery Flotilla GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:02.5400000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:47.1720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:53.0640000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Puzzle Plank GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:11.8050000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:15.3000000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:24.8240000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Hightail Falls GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.8060000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:26.7750000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:59.6850000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boulder Bowl GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:59.5960000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Wild Glide GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:06.3320000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Wild Glide GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.9400000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:05.1210000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:15.3610000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cosmic Cove GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:17.3550000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeybloom GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:36.7340000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeybloom GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:43.8970000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Lava Lair GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:26.6060000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Lava Lair GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:42.9240000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:36.3130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:04.4110000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Tall Trunk GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:16.6290000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:20.7880000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.0180000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Cloudy Court GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:52.6900000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Masterpiece GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:48.7600000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Masterpiece GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:26.7020000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.7210000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:13.3640000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Freezy Flake GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.9600000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:07.4760000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:59.0590000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Haunty Halls GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:10.6070000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beat Block GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:20.4160000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Beat Block GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.9720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fearsome Fleet GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:52.5340000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fearsome Fleet GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:17.7320000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:16.7180000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:24.8040000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Supermassive GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:54.8690000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.2690000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.7970000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flipsville GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:09.9390000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sweet Mystery GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:14.8620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Sweet Mystery GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:09.4260000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhop GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:28.9910000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Honeyhop GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:02.7730000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:36.0120000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:20.8840000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Starshine Beach GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:01.2540000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:50.7780000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:57.5550000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Chompworks GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:52.4180000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gravity Gauntlet GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:32.8630000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Gravity Gauntlet GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:00.7990000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.0500000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:20.7180000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Space Storm GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:10.3560000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:21.9290000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:37.8650000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boo Moon GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:54.9510000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Upside Dizzy GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:18.4720000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Upside Dizzy GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:05.2160000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:13.3810000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:23.9760000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slipsand GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:37.1640000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fleet Glide GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.5770000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Fleet Glide GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:58.5130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:55.7200000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.8730000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Shiverburn GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:13.7840000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boom Bunker GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:49.8580000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boom Bunker GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:08.4040000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Monster GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:36.7790000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Melty Monster GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:00.6500000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flash Black GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:53.5770000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flash Black GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:21.4678319</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:28.6927207</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:32.5480000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Clockwork Ruins GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:35.9450000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:19.3130000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:59.5360000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Throwback GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:26.6999870</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt GS3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:03:33.1778260</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:49.3648998</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Battle Belt GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:48.9435184</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slimy Spring GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:14.1620000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Slimy Spring GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:31.5507421</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Galaxy Generator GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:47.8350000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Galaxy Generator GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:27.7108450</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Mario Squared GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:10.8780000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Mario Squared GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:00:53.0960000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Coaster GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:28.6308762</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Rolling Coaster GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:48.0616393</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Twisty Trials GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:39.1880000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Twisty Trials GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:07.5390000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Stone Cyclone GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:15.4550000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Stone Cyclone GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:04.8580000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boss Blitz GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:59.6480000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Boss Blitz GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:57.8030000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-Flip-Out GS1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:01:07.3900000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Green Stars} Flip-Out GS2</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:02:10.5940000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Grandmaster 1</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:04:15.1530000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>what the helly</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best"/>
+      </SplitTimes>
+      <BestSegmentTime>
+        <RealTime>00:05:53.4000000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment></Segments>
+  <AutoSplitterSettings/>
+</Run>

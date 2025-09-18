@@ -29,17 +29,15 @@ public class SplitMerger
         {
             /*
             * 1. remove initial segment from blank split file
-            * 2. build copy of the empty split node
-            * 3. add new segment nodes to split file
-            * 4. after each segment, add a gameswitch segment if we are not on the last split in the queue
+            * 2. add new segment nodes to split file
+            * 3. after each segment, add a gameswitch segment if we are not on the last split in the queue
             */
             
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("empty.lss");
-            System.out.println(doc);
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
-            Node segments_node = null;
+            Node segments_node = null; // storing this reference to where the segments start saves going back through the split file to find it again
 
             /*removes initial segment */
             for(int i = 0; i < run.getLength(); i++)
@@ -54,9 +52,7 @@ public class SplitMerger
                         Node seg = segment_list.item(j);
                         if(seg.getNodeName().equals("Segment"))
                         {
-                            System.out.println("bah");
                             split_copy = seg.cloneNode(true);
-                            System.out.println(split_copy.getChildNodes().getLength());
                             segs.removeChild(seg);
                             break;
                         }
@@ -65,17 +61,11 @@ public class SplitMerger
                 }
             }
 
-            /* build copy of the empty split node */
-            
-
-
             /* merge all split files, in order, into the empty split file */
-            
             String tmp_name = "";
             String tmp_gold = "";
             for(int i = 0; i < splits_queue.size(); i++) //for every game
             {
-
                 ArrayList<Split> splits = splits_queue.get(i);
                 for(int j = 0; j < splits.size(); j++) //for every split in that game
                 {
@@ -87,9 +77,8 @@ public class SplitMerger
                     {
                         Node child = split_copy.getChildNodes().item(l);
                         if(child.getNodeName().equals("Name"))
-                        {
                             child.setTextContent(tmp_name);
-                        }
+                        
 
                         else if(child.getNodeName().equals("BestSegmentTime"))
                         {
@@ -97,9 +86,7 @@ public class SplitMerger
                             {
                                 Node grandchild = child.getChildNodes().item(m);
                                 if(grandchild.getNodeName().equals("RealTime"))
-                                {
                                     grandchild.setTextContent(tmp_gold);
-                                }
                             }
                         }
                     }         
@@ -112,9 +99,8 @@ public class SplitMerger
                         {
                             Node child = split_copy.getChildNodes().item(n);
                             if(child.getNodeName().equals("Name"))
-                            {
                                 child.setTextContent("Game Switch");
-                            }
+                            
 
                             else if(child.getNodeName().equals("BestSegmentTime"))
                             {
@@ -122,9 +108,8 @@ public class SplitMerger
                                 {
                                     Node grandchild = child.getChildNodes().item(m);
                                     if(grandchild.getNodeName().equals("RealTime"))
-                                    {
-                                        grandchild.setTextContent("00:05:00.000");
-                                    }
+                                        grandchild.setTextContent("00:05:00.000"); //5 minute seems resonable imo
+                                    
                                 }
                             }
                         }         
@@ -138,8 +123,9 @@ public class SplitMerger
             Transformer tf = tff.newTransformer();
             DOMSource source = new DOMSource(doc);
 
-            StreamResult result = new StreamResult("empty.lss");
+            StreamResult result = new StreamResult("merged.lss");
             tf.transform(source, result);
+            System.out.println("Merging complete, file saved as merged.lss");
             
         }
         catch(Exception e)

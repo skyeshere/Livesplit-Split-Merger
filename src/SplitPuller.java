@@ -25,7 +25,6 @@ public class SplitPuller
     public NodeList getSplits(String file)
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-
         try 
         {
             DocumentBuilder builder = factory.newDocumentBuilder();
