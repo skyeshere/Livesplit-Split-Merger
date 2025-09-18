@@ -1,7 +1,15 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class App 
 {
-    public App(String[] args)
+    ArrayList<String> args = new ArrayList<>();
+    Scanner input = new Scanner(System.in);
+
+    public App()
     {
+        args = userInput();
+
         SplitMerger sm = new SplitMerger();
 
         for(String file : args)
@@ -12,15 +20,24 @@ public class App
 
         sm.mergeSplits();
     }
-    public static void main(String[] args)
+    public static void main(String args[])
     {
-        if(args.length < 2)
+        new App();
+    }
+
+    public ArrayList<String> userInput()
+    {
+        System.out.println("Welcome to the split merger! To get started, enter how many split files you will be merging!");
+        System.out.println("Please note: This isn't the be-all-end-all solution. You will need to format your splits afterwards: ");
+
+        int number_of_splits = Integer.parseInt(input.nextLine());
+
+        for(int i = 0; i < number_of_splits; i++)
         {
-            System.err.println("Usage: [two or more .lss files]" + "\n" +
-                               "e.g. 'game1.lss game2.lss'");
-            System.exit(1);
+            System.out.println("Enter the name of split file (" + (i + 1) + "), including the .lss file extention [file1.lss]");
+            args.add(input.nextLine());
         }
         
-        new App(args);
+        return args;
     }
 }
