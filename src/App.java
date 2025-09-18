@@ -10,7 +10,6 @@ public class App
             sm.queueAdd(sp.pullSplitDetails());
         }
 
-        sm.printQueue();
         sm.mergeSplits();
     }
     public static void main(String[] args)

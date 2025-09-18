@@ -8,7 +8,6 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
@@ -57,7 +56,6 @@ public class SplitMerger
                             break;
                         }
                     }
-                    break;
                 }
             }
 
@@ -72,13 +70,16 @@ public class SplitMerger
                     tmp_name = splits.get(j).getSplitName();
                     tmp_gold = splits.get(j).getSplitGold(); 
 
+                    System.out.println("Merging " + tmp_name);
+
                     //combing the split_copy node for the right places to put the name and gold time
                     for(int l = 0; l < split_copy.getChildNodes().getLength(); l++)
                     {
                         Node child = split_copy.getChildNodes().item(l);
                         if(child.getNodeName().equals("Name"))
+                        {
                             child.setTextContent(tmp_name);
-                        
+                        }
 
                         else if(child.getNodeName().equals("BestSegmentTime"))
                         {
@@ -86,7 +87,9 @@ public class SplitMerger
                             {
                                 Node grandchild = child.getChildNodes().item(m);
                                 if(grandchild.getNodeName().equals("RealTime"))
+                                {
                                     grandchild.setTextContent(tmp_gold);
+                                }
                             }
                         }
                     }         
@@ -99,17 +102,18 @@ public class SplitMerger
                         {
                             Node child = split_copy.getChildNodes().item(n);
                             if(child.getNodeName().equals("Name"))
+                            {
                                 child.setTextContent("Game Switch");
-                            
-
+                            }
                             else if(child.getNodeName().equals("BestSegmentTime"))
                             {
                                 for(int m = 0; m < child.getChildNodes().getLength(); m++)
                                 {
                                     Node grandchild = child.getChildNodes().item(m);
                                     if(grandchild.getNodeName().equals("RealTime"))
-                                        grandchild.setTextContent("00:05:00.000"); //5 minute seems resonable imo
-                                    
+                                    {
+                                        grandchild.setTextContent("00:01:00.000"); //1 minute seems resonable imo
+                                    }
                                 }
                             }
                         }         
@@ -140,6 +144,7 @@ public class SplitMerger
         this.splits_queue.add(s);
     }
 
+    //debugging print method
     public void printQueue()
     {
         if(splits_queue != null)

@@ -21,7 +21,7 @@
   <Segments>
     
   <Segment>
-      <Name>BOB (1)</Name>
+      <Name>-BOB (1)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -31,7 +31,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>WF (8)</Name>
+      <Name>-WF (8)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -41,7 +41,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>JRB (16)</Name>
+      <Name>-JRB (16)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -51,7 +51,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>DW (20)</Name>
+      <Name>-DW (20)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -61,7 +61,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>BOB (26)</Name>
+      <Name>-BOB (26)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -71,7 +71,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>SSL (34)</Name>
+      <Name>-SSL (34)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -81,7 +81,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>HMC100 (36)</Name>
+      <Name>-HMC100 (36)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -91,7 +91,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>HMC (42)</Name>
+      <Name>-HMC (42)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -101,7 +101,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>LLL (50)</Name>
+      <Name>-LLL (50)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -111,7 +111,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>VC (52)</Name>
+      <Name>-VC (52)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -121,7 +121,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>CCM (59)</Name>
+      <Name>-CCM (59)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -131,7 +131,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>BBH (66)</Name>
+      <Name>-BBH (66)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -141,7 +141,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>DDD100 (68)</Name>
+      <Name>-DDD100 (68)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -151,7 +151,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>DDD (73)</Name>
+      <Name>-DDD (73)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -161,7 +161,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>UP (74)</Name>
+      <Name>-UP (74)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -171,7 +171,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>WDW (81)</Name>
+      <Name>-WDW (81)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -181,7 +181,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>THI (88)</Name>
+      <Name>-THI (88)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -191,7 +191,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>TTM (96)</Name>
+      <Name>-TTM (96)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -201,7 +201,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>SL (103)</Name>
+      <Name>-SL (103)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -211,7 +211,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>CLOUD (104)</Name>
+      <Name>-CLOUD (104)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -221,7 +221,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>TTC (111)</Name>
+      <Name>-TTC (111)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -231,7 +231,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>RR (119)</Name>
+      <Name>-RR (119)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -241,7 +241,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>S</Name>
+      <Name>{Subsplit}S</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -257,11 +257,11 @@
         <SplitTime name="Personal Best"/>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:05:00.000</RealTime>
+        <RealTime>00:01:00.000</RealTime>
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>Gateway</Name>
+      <Name>-Gateway</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -341,7 +341,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Terrace 1}Robot Reactor</Name>
+      <Name>-Robot Reactor</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -481,7 +481,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Fountain 1}Star Reactor</Name>
+      <Name>-Star Reactor</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -611,7 +611,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Kitchen 1}Airship Armada</Name>
+      <Name>-Airship Armada</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -741,7 +741,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Bedroom}Dark Matter Plant</Name>
+      <Name>-Dark Matter Plant</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -851,7 +851,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Engine 1}Lava Reactor</Name>
+      <Name>-Lava Reactor</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -861,7 +861,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>what the helly</Name>
+      <Name>-what the helly</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -931,7 +931,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Terrace 2}Good Egg P</Name>
+      <Name>-Good Egg P</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1121,7 +1121,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Garden &gt;:(}Snow Cap</Name>
+      <Name>-Snow Cap</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1201,7 +1201,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Bedroom 2}Dusty Dune G [2]</Name>
+      <Name>-Dusty Dune G [2]</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1241,7 +1241,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Kitchen 2}Drip Drop</Name>
+      <Name>-Drip Drop</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1281,7 +1281,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Fountain 2}Battlerock L</Name>
+      <Name>-Battlerock L</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1301,7 +1301,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Green part 1}Rolling Gizmo</Name>
+      <Name>-Rolling Gizmo</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1401,7 +1401,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Engine 2}Sand Spiral</Name>
+      <Name>-Sand Spiral</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1441,7 +1441,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{who even you}Honeyhive P</Name>
+      <Name>-Honeyhive P</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1451,7 +1451,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>fricken packet yo</Name>
+      <Name>{Subsplit}fricken packet yo</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1467,7 +1467,7 @@
         <SplitTime name="Personal Best"/>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:05:00.000</RealTime>
+        <RealTime>00:01:00.000</RealTime>
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
@@ -1501,7 +1501,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Bianco I} Bianco 5 (12)</Name>
+      <Name>-Bianco 5 (12)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1531,7 +1531,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Gelato I} Beach Shine</Name>
+      <Name>-Beach Shine</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1601,7 +1601,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Pianta I} Pianta 7 (37)</Name>
+      <Name>-Pianta 7 (37)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1681,7 +1681,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Pinna I} Pinna 7 (62)</Name>
+      <Name>-Pinna 7 (62)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1701,7 +1701,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Delfino I} Lilypad (68)</Name>
+      <Name>-Lilypad (68)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1721,7 +1721,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Bianco II} Bianco 7</Name>
+      <Name>-Bianco 7</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1791,7 +1791,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Sirena I} Sirena 7 (78)</Name>
+      <Name>-Sirena 7 (78)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1861,7 +1861,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Noki I} Noki 7</Name>
+      <Name>-Noki 7</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1941,7 +1941,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Ricco I} Ricco 7 (96)</Name>
+      <Name>-Ricco 7 (96)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1951,7 +1951,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>Corona Blues (106)</Name>
+      <Name>-Corona Blues (106)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -1991,7 +1991,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Pianta II} Pianta 8 (113)</Name>
+      <Name>-Pianta 8 (113)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2081,7 +2081,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Gelato II} Gelato 1R (141)</Name>
+      <Name>-Gelato 1R (141)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2191,7 +2191,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Delfino II} Shine Gate</Name>
+      <Name>-Shine Gate</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2241,7 +2241,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Bianco III} Bianco 3R (167)</Name>
+      <Name>-Bianco 3R (167)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2271,7 +2271,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Pinna II} Pinna 100s/8 (175)</Name>
+      <Name>-Pinna 100s/8 (175)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2321,7 +2321,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Noki II} Noki Bird/7</Name>
+      <Name>-Noki Bird/7</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2361,7 +2361,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Sirena II} Sirena 100s (218)</Name>
+      <Name>-Sirena 100s (218)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2411,7 +2411,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Ricco II} Ricco 8 (240)</Name>
+      <Name>-Ricco 8 (240)</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -2447,7 +2447,7 @@
         <SplitTime name="Personal Best"/>
       </SplitTimes>
       <BestSegmentTime>
-        <RealTime>00:05:00.000</RealTime>
+        <RealTime>00:01:00.000</RealTime>
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
@@ -3651,7 +3651,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{120 Stars}Galaxy Generator II</Name>
+      <Name>-Galaxy Generator II</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -3661,7 +3661,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>Start Greens</Name>
+      <Name>-Start Greens</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -4841,7 +4841,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>{Green Stars} Flip-Out GS2</Name>
+      <Name>-Flip-Out GS2</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -4851,7 +4851,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>Grandmaster 1</Name>
+      <Name>-Grandmaster 1</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>
@@ -4861,7 +4861,7 @@
       </BestSegmentTime>
       <SegmentHistory/>
     </Segment><Segment>
-      <Name>what the helly</Name>
+      <Name>{Subsplit}what the helly</Name>
       <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best"/>

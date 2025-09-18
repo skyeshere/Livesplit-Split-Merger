@@ -28,17 +28,16 @@ public class SplitPuller
         try 
         {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(file);
+            Document doc = builder.parse(file); //parse split file
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
-            for(int i = 0; i < run.getLength(); i++)
+            for(int i = 0; i < run.getLength(); i++) //find segments node
             {
                 if(run.item(i).getNodeName().equals("Segments"))
                 {
-                    return run.item(i).getChildNodes();
+                    return run.item(i).getChildNodes(); //return segments node list
                 }
             }
-            
         } 
         catch (ParserConfigurationException | SAXException | IOException e) 
         {
@@ -60,12 +59,15 @@ public class SplitPuller
             for(int j = 0; j < single_segment.getLength(); j ++)
             {
                 Node s = single_segment.item(j);
+
+                //pull split name
                 if(s.getNodeType() == Node.ELEMENT_NODE && s.getNodeName().equals("Name"))
                 {
                     String str = s.getTextContent();
                     split.setSplitName(str);
                 }
 
+                //pull split gold
                 else if(s.getNodeType() == Node.ELEMENT_NODE && s.getNodeName().equals("BestSegmentTime"))
                 {
                     NodeList golds = s.getChildNodes();
@@ -76,7 +78,6 @@ public class SplitPuller
                         {
                             String str = golds.item(k).getTextContent();
                             split.setSplitGold(str);
-                            break;
                         }
                     }
                 }
@@ -88,6 +89,38 @@ public class SplitPuller
                 splits_array.add(split);
             }
         }
-        return splits_array;
+
+        return cleanSplitNames(splits_array);
+    }
+
+    public ArrayList<Split> cleanSplitNames(ArrayList<Split> splits)
+    {
+        for(int i = 0; i < splits.size(); i++)
+        {
+            StringBuffer name = new StringBuffer(splits.get(i).getSplitName());
+            if(name.charAt(0) != '-' && name.charAt(0) != '{')
+            {
+                if(i < splits.size() - 1)
+                {
+                    splits.get(i).setSplitName("-" + name.toString());
+                }
+                else
+                {
+                    splits.get(i).setSplitName("{Subsplit}" + name.toString());
+                }
+            }
+            else if(name.charAt(0) == '{' && i < splits.size() - 1)
+            {
+                int end = name.indexOf("}");
+                String cleaned = "-" + name.substring(end + 1).trim(); //remove the {subsplit} from the start of the split name
+                splits.get(i).setSplitName(cleaned);
+            }
+            else if(name.charAt(0) == '-' && i == splits.size() - 1)
+            {
+                String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
+                splits.get(i).setSplitName(cleaned);
+            }
+        }
+        return splits;
     }
 }
