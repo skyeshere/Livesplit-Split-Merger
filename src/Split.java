@@ -8,7 +8,6 @@ public class Split
     {
         this.split_name = "";
         this.split_gold = "";
-
     }
 
     public String getSplitName()
@@ -19,11 +18,6 @@ public class Split
     public String getSplitGold()
     {
         return this.split_gold;
-    }
-
-    public String getSplitIcon()
-    {
-        return this.split_icon;
     }
 
     public void setSplitName(String name)
