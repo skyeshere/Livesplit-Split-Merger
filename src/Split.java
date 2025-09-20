@@ -2,11 +2,13 @@ public class Split
 {    
     String split_name;
     String split_gold;
+    String split_icon;
 
     public Split()
     {
         this.split_name = "";
         this.split_gold = "";
+
     }
 
     public String getSplitName()
@@ -19,6 +21,11 @@ public class Split
         return this.split_gold;
     }
 
+    public String getSplitIcon()
+    {
+        return this.split_icon;
+    }
+
     public void setSplitName(String name)
     { 
         split_name = name;
@@ -28,4 +35,5 @@ public class Split
     {
         split_gold = gold;
     }
+
 }

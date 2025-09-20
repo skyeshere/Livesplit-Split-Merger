@@ -13,6 +13,7 @@ import org.xml.sax.SAXException;
 public class SplitPuller 
 {
     String file;
+    String game;
     NodeList segments = null;
     Split split;
 
@@ -33,7 +34,13 @@ public class SplitPuller
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
             for(int i = 0; i < run.getLength(); i++) //find segments node
             {
-                if(run.item(i).getNodeName().equals("Segments"))
+                //gets game name from spits
+                if(run.item(i).getNodeName().equals("GameName"))
+                {
+                    game = run.item(i).getTextContent();
+                }
+
+                else if(run.item(i).getNodeName().equals("Segments"))
                 {
                     return run.item(i).getChildNodes(); //return segments node list
                 }
@@ -47,9 +54,11 @@ public class SplitPuller
         return null;
     }
 
-    public ArrayList<Split> pullSplitDetails()
+    public SplitsContainer pullSplitDetails()
     {
-        ArrayList<Split> splits_array = new ArrayList<>();
+        //ArrayList<Split> splits_array = new ArrayList<>();
+        SplitsContainer splits_container = new SplitsContainer();
+        splits_container.setGame(game); //this is lowk an extremely arbitery place to set this but it works :p 
 
         for(int i = 0; i < segments.getLength(); i++)
         {
@@ -87,39 +96,64 @@ public class SplitPuller
             //keep records with a name and empty gold  
             if(!split.getSplitName().equals(""))
             {
-                splits_array.add(split);
+                splits_container.addSplit(split);
             }
         }
 
-        return cleanSplitNames(splits_array);
+        return cleanSplitNames(splits_container);
     }
 
-    public ArrayList<Split> cleanSplitNames(ArrayList<Split> splits)
+    public SplitsContainer cleanSplitNames(SplitsContainer splits)
     {
-        for(int i = 0; i < splits.size(); i++)
+        System.out.println("Cleaning subsplits...");
+        for(int i = 0; i < splits.getContainer().size(); i++)
         {
-            StringBuffer name = new StringBuffer(splits.get(i).getSplitName());
+            StringBuffer name = new StringBuffer(splits.getContainer().get(i).getSplitName());
             if(name.charAt(0) != '-' && name.charAt(0) != '{')
             {
-                if(i < splits.size() - 1)
+                if(i < splits.getContainer().size() - 1)
                 {
-                    splits.get(i).setSplitName("-" + name.toString());
+                    splits.getContainer().get(i).setSplitName("-" + name.toString());
                 }
                 else
                 {
-                    splits.get(i).setSplitName("{Subsplit}" + name.toString());
+                    if(splits.getGame().equals(""))
+                    {   //if no game name attached to splits, use this default
+                        splits.getContainer().get(i).setSplitName("{Subsplit}" + name.toString());
+                    } 
+                    else
+                    {   //if does have name, use it
+                        splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.toString());
+                    }
                 }
             }
-            else if(name.charAt(0) == '{' && i < splits.size() - 1)
+            else if(name.charAt(0) == '{' && i < splits.getContainer().size() - 1)
             {
                 int end = name.indexOf("}");
-                String cleaned = "-" + name.substring(end + 1).trim(); //remove the {subsplit} from the start of the split name
-                splits.get(i).setSplitName(cleaned);
+                //remove the {subsplit} from the start of the split name
+                splits.getContainer().get(i).setSplitName("-" + name.substring(end + 1).trim());
             }
-            else if(name.charAt(0) == '-' && i == splits.size() - 1)
+            else if(name.charAt(0) == '-' && i == splits.getContainer().size() - 1)
             {
-                String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
-                splits.get(i).setSplitName(cleaned);
+                //String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
+                if(splits.getGame().equals(""))
+                {
+                    splits.getContainer().get(i).setSplitName("{Subsplit}" + name.substring(1).trim());
+                }
+                else
+                {
+                    splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(1).trim());
+                }
+            }
+
+            else if(name.charAt(0) == '{' && i == splits.getContainer().size() - 1)
+            {
+                int end = name.indexOf("}");
+                String subsplit = name.substring(1, end);
+                if(!subsplit.equals(splits.getGame()))
+                {
+                    splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(end + 1));
+                }
             }
         }
         return splits;
