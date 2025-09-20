@@ -2,6 +2,7 @@ public class Split
 {    
     String split_name;
     String split_gold;
+    String split_icon;
 
     public Split()
     {
@@ -28,4 +29,5 @@ public class Split
     {
         split_gold = gold;
     }
+
 }

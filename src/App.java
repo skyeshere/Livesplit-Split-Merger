@@ -27,17 +27,22 @@ public class App
 
     public ArrayList<String> userInput()
     {
-        System.out.println("Welcome to the split merger! To get started, enter how many split files you will be merging!");
-        System.out.println("Please note: This isn't the be-all-end-all solution. You will need to format your splits afterwards: ");
+        System.out.println("Welcome to the spit merger! Please note: You may have to format your splits after merging depending on your needs.");
+        System.out.println("Please enter the names of the split files you want to merge (including the `.lss` file extension). Enter a non-lss file string to continue to the merge");
 
-        int number_of_splits = Integer.parseInt(input.nextLine());
-
-        for(int i = 0; i < number_of_splits; i++)
-        {
-            System.out.println("Enter the name of split file (" + (i + 1) + "), including the .lss file extention [file1.lss]");
-            args.add(input.nextLine());
-        }
+        String result = "";
         
+        do
+        {
+            result = input.nextLine();
+
+            if(result.toLowerCase().contains(".lss"))
+            {
+                args.add(result);
+            }
+        }
+        while(result.toLowerCase().contains(".lss"));
+
         return args;
     }
 }

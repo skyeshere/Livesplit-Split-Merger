@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
 
 public class SplitMerger 
 {
-    ArrayList<ArrayList<Split>> splits_queue;   
+    ArrayList<SplitsContainer> splits_queue;   
     Node split_copy; 
 
     public SplitMerger()
@@ -64,7 +64,7 @@ public class SplitMerger
             String tmp_gold = "";
             for(int i = 0; i < splits_queue.size(); i++) //for every game
             {
-                ArrayList<Split> splits = splits_queue.get(i);
+                ArrayList<Split> splits = splits_queue.get(i).getContainer();
                 for(int j = 0; j < splits.size(); j++) //for every split in that game
                 {
                     tmp_name = splits.get(j).getSplitName();
@@ -139,7 +139,7 @@ public class SplitMerger
         }
     }
 
-    public void queueAdd(ArrayList<Split> s)
+    public void queueAdd(SplitsContainer s)
     {
         this.splits_queue.add(s);
     }
@@ -149,9 +149,9 @@ public class SplitMerger
     {
         if(splits_queue != null)
         {
-            for(ArrayList<Split> s_s : splits_queue)
+            for(SplitsContainer sc : splits_queue)
             {
-                for(Split s : s_s)
+                for(Split s : sc.getContainer())
                 {
                     System.out.println(s.getSplitName() + " : " + s.getSplitGold());
                 }
@@ -161,6 +161,6 @@ public class SplitMerger
 
     public ArrayList<Split> getIndexedSplits(int i)
     {
-        return this.splits_queue.get(i);
+        return this.splits_queue.get(i).getContainer();
     }
 }
