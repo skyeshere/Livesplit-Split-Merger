@@ -83,8 +83,9 @@ public class SplitPuller
                 }
             }
             
-            //hodge-podge fix to empty splits being added to the splits array, but it works! 
-            if(!(split.getSplitName().equals("") || split.getSplitGold().equals("")))
+            //should filter out completely empty records being read from the split file and
+            //keep records with a name and empty gold  
+            if(!split.getSplitName().equals(""))
             {
                 splits_array.add(split);
             }
