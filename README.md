@@ -1,4 +1,4 @@
-## Getting Started
+## Hello! Hi! Why are you looking at my code..
 
 Welcome to the Repo! I'm sorry it is such a mess, it will not get better.
 
