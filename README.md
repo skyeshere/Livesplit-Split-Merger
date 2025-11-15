@@ -1,18 +1,13 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Repo! I'm sorry it is such a mess, it will not get better.
+
+This aim of this project is to make a program that merges multiple livesplit files together into one.
+This would be useful for mutligame runners, such as people who run the Multi Mario 602.
 
 ## Folder Structure
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
+- `src`: the folder to maintain sources and class files, cause I didnt send them to a different folder... whoops.
 - `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
