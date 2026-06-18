@@ -1,12 +1,10 @@
 import java.util.ArrayList;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -15,6 +13,8 @@ public class SplitMerger
 {
     ArrayList<SplitsContainer> splits_queue;   
     Node split_copy; 
+	Node found_node = null;
+    String target = "";
 
     public SplitMerger()
     {
@@ -35,29 +35,37 @@ public class SplitMerger
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("empty.lss");
 
-            NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
+            Node root_node = doc.getElementsByTagName("Run").item(0);
             Node segments_node = null; // storing this reference to where the segments start saves going back through the split file to find it again
+            target = "Segments";
 
-            /*removes initial segment */
-            for(int i = 0; i < run.getLength(); i++)
+            //find the segments tag
+			findNode(root_node, target);
+            segments_node = found_node;
+            if (found_node == null) // this shouldnt occur however it's here just to be safe...
             {
-                Node segs = run.item(i);
-                if(segs.getNodeName().equals("Segments"))
-                {
-                    NodeList segment_list = segs.getChildNodes();
-                    segments_node = segs;
-                    for(int j = 0; j < segment_list.getLength(); j++)
-                    {
-                        Node seg = segment_list.item(j);
-                        if(seg.getNodeName().equals("Segment"))
-                        {
-                            split_copy = seg.cloneNode(true);
-                            segs.removeChild(seg);
-                            break;
-                        }
-                    }
-                }
+                System.err.println("The target attribute in the lss file was not found! exitting...");
+                System.exit(1);
             }
+
+			/*remove initial segment from empty lss file */
+            /**
+             * This will use proprietery bit of code to specifically deal with a determined outcome from line 41 and may not be the best
+             */
+
+            Node lone_segment = found_node.getChildNodes().item(1);
+            if (!lone_segment.getNodeName().equals("Segment"))        
+            {
+                System.err.println("An error occurred...");
+                System.exit(1);
+            }
+            //copy the empty segment
+            split_copy = lone_segment.cloneNode(true);
+            //remove empty segment from the split file
+            found_node.removeChild(lone_segment);
+
+            //set back to null for future use
+            found_node = null;
 
             /* merge all split files, in order, into the empty split file */
             String tmp_name = "";
@@ -162,5 +170,29 @@ public class SplitMerger
     public ArrayList<Split> getIndexedSplits(int i)
     {
         return this.splits_queue.get(i).getContainer();
+    }
+
+    public void findNode(Node n, String target)
+    {
+
+        if (n.getNodeName().equals("#text")) return; //skips redundant fake ass nodes
+        
+        System.out.println(n.getNodeName() + " : target = " + target );
+        if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
+        {
+            //do blah blah blah
+			found_node = n;
+			return;
+        }
+
+		NodeList children = n.getChildNodes(); //pull all child nodes of current root
+		
+		if (children.getLength() < 1) return; //return if no children
+
+		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
+		{
+			if (found_node != null) return;
+			findNode(children.item(i), target);
+		}
     }
 }

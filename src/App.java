@@ -19,7 +19,9 @@ public class App
         }
 
         sm.mergeSplits();
+        //TreeTraversal tt = new TreeTraversal();
     }
+    
     public static void main(String args[])
     {
         new App();
