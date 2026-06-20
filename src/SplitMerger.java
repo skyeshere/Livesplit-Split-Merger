@@ -41,95 +41,84 @@ public class SplitMerger
 
             //find the segments tag
 			findNode(root_node, target);
-            segments_node = found_node;
-            if (found_node == null) // this shouldnt occur however it's here just to be safe...
-            {
-                System.err.println("The target attribute in the lss file was not found! exitting...");
-                System.exit(1);
-            }
+            checkNode(found_node, target);
 
 			/*remove initial segment from empty lss file */
             /**
              * This will use proprietery bit of code to specifically deal with a determined outcome from line 41 and may not be the best
              */
 
-            Node lone_segment = found_node.getChildNodes().item(1);
-            if (!lone_segment.getNodeName().equals("Segment"))        
-            {
-                System.err.println("An error occurred...");
-                System.exit(1);
-            }
+            Node lone_segment = found_node.getChildNodes().item(1); //item 1 will always be the Segment node from Segments
+            checkNode(lone_segment, "Segment"); //check that lone segment is correct. Again, this should never occur     
+
             //copy the empty segment
             split_copy = lone_segment.cloneNode(true);
             //remove empty segment from the split file
             found_node.removeChild(lone_segment);
 
             //set back to null for future use
+            segments_node = found_node;
             found_node = null;
 
             /* merge all split files, in order, into the empty split file */
             String tmp_name = "";
             String tmp_gold = "";
-            for(int i = 0; i < splits_queue.size(); i++) //for every game
-            {
-                ArrayList<Split> splits = splits_queue.get(i).getContainer();
-                for(int j = 0; j < splits.size(); j++) //for every split in that game
-                {
-                    tmp_name = splits.get(j).getSplitName();
-                    tmp_gold = splits.get(j).getSplitGold(); 
 
+            System.out.println("searching");
+            for (int i = 0; i < splits_queue.size(); i++) //need index from this loop
+            {
+                SplitsContainer sc = splits_queue.get(i);
+                ArrayList<Split> splits = sc.getContainer();
+                for (Split split : splits)
+                {
+                    tmp_name = split.getSplitName();
+                    tmp_gold = split.getSplitGold();
                     System.out.println("Merging " + tmp_name);
 
-                    //combing the split_copy node for the right places to put the name and gold time
-                    for(int l = 0; l < split_copy.getChildNodes().getLength(); l++)
-                    {
-                        Node child = split_copy.getChildNodes().item(l);
-                        if(child.getNodeName().equals("Name"))
-                        {
-                            child.setTextContent(tmp_name);
-                        }
+                    /* search for both name and gold nodes from split_copy */
+                    //set name
+                    target = "Name";
+                    findNode(split_copy, target); //sets found_node to target when found
+                    checkNode(found_node, target);                  
+                    found_node.setTextContent(tmp_name);
 
-                        else if(child.getNodeName().equals("BestSegmentTime"))
-                        {
-                            for(int m = 0; m < child.getChildNodes().getLength(); m++)
-                            {
-                                Node grandchild = child.getChildNodes().item(m);
-                                if(grandchild.getNodeName().equals("RealTime"))
-                                {
-                                    grandchild.setTextContent(tmp_gold);
-                                }
-                            }
-                        }
-                    }         
-                    segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
+                    found_node = null;
+                    //set gold
                     
-                    if(j == splits.size() - 1 && i != splits_queue.size() - 1) //if we are at the last split of a game, but not the last game
-                    {
-                        //add a gameswitch segment
-                        for(int n = 0; n < split_copy.getChildNodes().getLength(); n++)
-                        {
-                            Node child = split_copy.getChildNodes().item(n);
-                            if(child.getNodeName().equals("Name"))
-                            {
-                                child.setTextContent("Game Switch");
-                            }
-                            else if(child.getNodeName().equals("BestSegmentTime"))
-                            {
-                                for(int m = 0; m < child.getChildNodes().getLength(); m++)
-                                {
-                                    Node grandchild = child.getChildNodes().item(m);
-                                    if(grandchild.getNodeName().equals("RealTime"))
-                                    {
-                                        grandchild.setTextContent("00:01:00.000"); //1 minute seems resonable imo
-                                    }
-                                }
-                            }
-                        }         
-                        segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
-                    }
+                    //find the BestSegmentTime
+                    target = "BestSegmentTime";
+                    findNode(split_copy, target);
+                    checkNode(split_copy, target);
+                    found_node = found_node.getChildNodes().item(1); //item one is real time where the time should be inputted
+
+                    found_node.setTextContent(tmp_gold);
+                    
+                    found_node = null;
+
+                    //set the new segment node into the xml tree
+                    segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
+                }
+                if (i != splits_queue.size() -1) //if not the last game in the queue
+                {
+                    target = "Name";
+                    findNode(split_copy, target);
+                    checkNode(split_copy, target);
+                    found_node.setTextContent("Game Switch");
+
+                    found_node = null;
+
+                    target = "BestSegmentTime";
+                    findNode(split_copy, target);
+                    checkNode(split_copy, target);
+                    found_node = found_node.getChildNodes().item(1); //item 1 is real time where the time should be inputted
+                    found_node.setTextContent("00:01:00.000"); //1 minute seems resonable imo
+
+                    found_node = null;
+
+                    segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node  
                 }
             }
-            
+
             /* saves new splits file */
             TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
@@ -152,35 +141,12 @@ public class SplitMerger
         this.splits_queue.add(s);
     }
 
-    //debugging print method
-    public void printQueue()
-    {
-        if(splits_queue != null)
-        {
-            for(SplitsContainer sc : splits_queue)
-            {
-                for(Split s : sc.getContainer())
-                {
-                    System.out.println(s.getSplitName() + " : " + s.getSplitGold());
-                }
-            }
-        }
-    }
-
-    public ArrayList<Split> getIndexedSplits(int i)
-    {
-        return this.splits_queue.get(i).getContainer();
-    }
-
     public void findNode(Node n, String target)
     {
-
         if (n.getNodeName().equals("#text")) return; //skips redundant fake ass nodes
         
-        System.out.println(n.getNodeName() + " : target = " + target );
         if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
         {
-            //do blah blah blah
 			found_node = n;
 			return;
         }
@@ -194,5 +160,15 @@ public class SplitMerger
 			if (found_node != null) return;
 			findNode(children.item(i), target);
 		}
+    }
+
+    //n is the node being checked, t is the target string
+    public void checkNode(Node n, String t)
+    {
+        if (found_node == null || !found_node.getNodeName().equals(target))
+        {
+            System.err.println("targetted node not found :/ make sure your empty split.lss file isn't altered");
+            System.exit(1);
+        }       
     }
 }

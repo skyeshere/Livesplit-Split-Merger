@@ -24,7 +24,7 @@ public class TreeTraversal {
             Document doc = builder.parse("empty.lss");
 
             Node root_node = doc.getElementsByTagName("Run").item(0);
-            target = "Segments";
+            target = "BestSegmentTime";
 
             findNode(root_node, target);
 
