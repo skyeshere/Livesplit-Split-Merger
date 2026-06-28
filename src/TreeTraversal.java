@@ -7,27 +7,25 @@ import org.w3c.dom.NodeList;
 public class TreeTraversal {
     Node found_node = null;
     String target = "";
-    
+    Boolean found = false;
 
     public TreeTraversal()
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try
         {
-            /*
-            * 1. remove initial segment from blank split file
-            * 2. add new segment nodes to split file
-            * 3. after each segment, add a gameswitch segment if we are not on the last split in the queue
-            */
-            
+            //get document to parse   
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("empty.lss");
 
+            //set the root node to the root node of the xml tree
             Node root_node = doc.getElementsByTagName("Run").item(0);
             target = "BestSegmentTime";
 
+            //find the node with name target
             findNode(root_node, target);
 
+            //debug print all children of the found node
             for (int i = 0; i < found_node.getChildNodes().getLength(); i++)
             {
                 System.out.println(found_node.getChildNodes().item(i) + " " + i);
@@ -46,7 +44,7 @@ public class TreeTraversal {
         new TreeTraversal();
     }
 
-    public void findNode(Node n, String target)
+    public  void findNode(Node n, String target)
     {
         if (n.getNodeName().equals("#text")) return;
 
@@ -55,8 +53,7 @@ public class TreeTraversal {
         {
             //do blah blah blah
             System.out.println("Found `" + target + "`");
-			found_node = n;
-			return;
+            found_node = n;
         }
 
 		NodeList children = n.getChildNodes(); //pull all child nodes of current root
@@ -65,7 +62,6 @@ public class TreeTraversal {
 
 		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
 		{
-            if (found_node != null) return;
 			findNode(children.item(i), target);
 		}
     }
