@@ -73,7 +73,8 @@ public class SplitMerger
                 {
                     tmp_name = split.getSplitName();
                     tmp_gold = split.getSplitGold();
-                    System.out.println("Merging " + tmp_name);
+                    
+                    System.out.println("Merging: " + tmp_name);
 
                     /* search for both name and gold nodes from split_copy */
                     //set name
@@ -143,9 +144,10 @@ public class SplitMerger
 
     public void findNode(Node n, String target)
     {
-        if (n.getNodeName().equals("#text")) return; //skips redundant fake ass nodes
+        String curr_node = n.getNodeName();
+        if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
         
-        if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
+        if (curr_node.equals(target)) //check if new root's name is equal to the target node
         {
 			found_node = n;
 			return;

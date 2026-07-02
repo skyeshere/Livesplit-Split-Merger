@@ -46,6 +46,7 @@ public class TreeTraversal {
 
     public  void findNode(Node n, String target)
     {
+        System.out.println(n.getNodeName());
         if (n.getNodeName().equals("#text")) return;
 
         System.out.println(n.getNodeName() + " : target = " + target );
