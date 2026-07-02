@@ -7,7 +7,7 @@ This would be useful for mutligame runners, such as people who run the Multi Mar
 
 ## Future Upkeep
 
-There are definitely some areas where this can be improved... The entire way to program finds the correct XML tag at every stage in the program needs to be redone, using a proper tree searching algorithm.Maybe add support for importing more information such as combined PB comparisons and other comparisons. Also adding support to keep split images, although since they are stored as strings internally it would be difficult depending on the image's file size.
+There are definitely some areas where this can be improved... The entire way the program finds the correct XML tag at every stage in the program needs to be redone, using a proper tree searching algorithm. Maybe add support for importing more information such as combined PB comparisons and other comparisons. Also adding support to keep split images, although since they are stored as strings internally it would be difficult depending on the image's file size.
 
 All of these would probably be done outwith this specific project, and in a different language. Although java is a powerful programming language and is designed to be portable, building this project on JS/typescript and having it accessible via a webapp would be best for accessibility. 
 
