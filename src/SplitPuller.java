@@ -11,18 +11,16 @@ import org.xml.sax.SAXException;
 /**
  * This redo is to replace the other awful for loop tree search that plagues this project.
  * SplitMerger.java has already been redone, now it is time for SplitPuller.java
- * 
- * TODO:
- *  -   Have seperate class for the tree traversal (luckily i made TreeTraversal.java to test out my recursion, so it will be repurposed for this)
- *  -   replace for loops with TreeTraversal.findNode
  */
 
 public class SplitPuller 
 {
     String file;
     String game;
+    String target;
     NodeList segments = null;
     Split split;
+    Node found_node = null;
 
     public SplitPuller(String file)
     {
@@ -63,41 +61,26 @@ public class SplitPuller
 
     public SplitsContainer pullSplitDetails()
     {
-        //ArrayList<Split> splits_array = new ArrayList<>();
         SplitsContainer splits_container = new SplitsContainer();
         splits_container.setGame(game); //this is lowk an extremely arbitery place to set this but it works :p 
 
-        for(int i = 0; i < segments.getLength(); i++)
+        for(int i = 0; i < segments.getLength(); i++) //first for loop here can be changed into for-each
         {
             Split split = new Split();
-            NodeList single_segment = segments.item(i).getChildNodes();
+            Node single_segment = segments.item(i); //root node to be searched
+            if (single_segment.getNodeName().equals("#text")) continue; //this line fixes  the issue of it crashing :/
+            
+            target = "Name";
+            findNode(single_segment, target);
+            split.setSplitName(found_node.getTextContent());
+            found_node = null;
 
-            for(int j = 0; j < single_segment.getLength(); j ++)
-            {
-                Node s = single_segment.item(j);
+            target = "BestSegmentTime";
+            findNode(single_segment, target);
+            found_node = found_node.getChildNodes().item(1);
+            split.setSplitGold(found_node.getTextContent());
+            found_node = null;
 
-                //pull split name
-                if(s.getNodeType() == Node.ELEMENT_NODE && s.getNodeName().equals("Name"))
-                {
-                    String str = s.getTextContent();
-                    split.setSplitName(str);
-                }
-
-                //pull split gold
-                else if(s.getNodeType() == Node.ELEMENT_NODE && s.getNodeName().equals("BestSegmentTime"))
-                {
-                    NodeList golds = s.getChildNodes();
-
-                    for(int k = 0; k < golds.getLength(); k++)
-                    {
-                        if(golds.item(k).getNodeName().equals("RealTime"))
-                        {
-                            String str = golds.item(k).getTextContent();
-                            split.setSplitGold(str);
-                        }
-                    }
-                }
-            }
             
             //should filter out completely empty records being read from the split file and
             //keep records with a name and empty gold  
@@ -167,5 +150,27 @@ public class SplitPuller
             }
         }
         return splits;
+    }
+
+    public void findNode(Node n, String target)
+    {
+        String curr_node = n.getNodeName();
+        if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
+        
+        if (curr_node.equals(target)) //check if new root's name is equal to the target node
+        {
+			found_node = n;
+			return;
+        }
+
+		NodeList children = n.getChildNodes(); //pull all child nodes of current root
+		
+		if (children.getLength() < 1) return; //return if no children
+
+		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
+		{
+			if (found_node != null) return;
+			findNode(children.item(i), target);
+		}
     }
 }

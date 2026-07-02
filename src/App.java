@@ -19,6 +19,8 @@ public class App
         }
 
         sm.mergeSplits();
+
+        // new TreeTraversal();
     }
     
     public static void main(String args[])
