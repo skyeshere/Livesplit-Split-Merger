@@ -7,6 +7,16 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+
+/**
+ * This redo is to replace the other awful for loop tree search that plagues this project.
+ * SplitMerger.java has already been redone, now it is time for SplitPuller.java
+ * 
+ * TODO:
+ *  -   Have seperate class for the tree traversal (luckily i made TreeTraversal.java to test out my recursion, so it will be repurposed for this)
+ *  -   replace for loops with TreeTraversal.findNode
+ */
+
 public class SplitPuller 
 {
     String file;
@@ -100,6 +110,9 @@ public class SplitPuller
         return cleanSplitNames(splits_container);
     }
 
+    /*
+        This may be able to be cleaned up, but i wouldnt know how
+    */
     public SplitsContainer cleanSplitNames(SplitsContainer splits)
     {
         System.out.println("Cleaning subsplits...");
