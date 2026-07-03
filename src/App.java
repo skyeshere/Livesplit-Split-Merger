@@ -19,8 +19,6 @@ public class App
         }
 
         sm.mergeSplits();
-
-        // new TreeTraversal();
     }
     
     public static void main(String args[])
@@ -37,35 +35,43 @@ public class App
 
         System.out.println("Welcome to the spit merger! Please note: You may have to format your splits after merging depending on your needs. \n");
         System.out.println("Please enter the names of the split files you want to merge (including the `.lss` file extension). Press 'Enter' with no input to continue.");
-
+        
+        int number_of_splits = 0;
         String result = "";
-        int counter = 1;
-        do
+
+        while (number_of_splits <= 1) //will automatically go into while loop since n_o_s is initalised as one
         {
-            System.out.print("item " + counter + ": ");
+            System.out.print("Enter the <<NUMBER>> of splits you will be merging (number must be > 1): ");
             result = input.nextLine();
 
-            if(result.length() >= 5) //if the resulting string is at a length to be a possible split file
+            try //try parse input as an integer
             {
-                if(result.substring(result.length() - 4).toLowerCase().equals(".lss")) //check for file extension
-                {
-                    args.add(result);
-                }
+                number_of_splits = Integer.parseInt(result);
             }
-            else //this is not a great solution to be honest
+            catch (Exception e) //catch the error and allow user to try again.
             {
-                break;
+                System.err.println(e + ": Please enter a number, silly.");
             }
-
-            counter++;
         }
-        while(result.substring(result.length() - 4).toLowerCase().equals(".lss"));
 
-        if(args.size() <= 1)
+        result = ""; //reset result for next input
+
+        System.out.println("Enter the file names for your splits! Keeping them simple is the best");
+        System.out.println("e.g: randomsplitname.lss");
+
+        for(int i = 0; i < number_of_splits; i++)
         {
-            System.out.println("Please enter at least 2 split files to merge.");
-            System.out.println("You entered: " + args.size() + " splits");
-            System.exit(1);
+            System.out.print("file " + (i + 1) + ":"); //what file number the user is on (1 -> numb splits)
+            result = input.nextLine();
+
+            while(result.length() <= 4 || !result.substring(result.length() - 4).toLowerCase().equals(".lss")) //entry validation
+            {
+                System.out.println("Please enter a valid split file name (ending in .lss)");
+                result = input.nextLine();
+            }
+
+            args.add(result);
+            result = "";
         }
 
         return args;

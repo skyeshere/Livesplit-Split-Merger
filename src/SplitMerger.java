@@ -25,13 +25,7 @@ public class SplitMerger
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try
-        {
-            /*
-            * 1. remove initial segment from blank split file
-            * 2. add new segment nodes to split file
-            * 3. after each segment, add a gameswitch segment if we are not on the last split in the queue
-            */
-            
+        {  
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("empty.lss");
 
@@ -42,11 +36,6 @@ public class SplitMerger
             //find the segments tag
 			findNode(root_node, target);
             checkNode(found_node, target);
-
-			/*remove initial segment from empty lss file */
-            /**
-             * This will use proprietery bit of code to specifically deal with a determined outcome from line 41 and may not be the best
-             */
 
             Node lone_segment = found_node.getChildNodes().item(1); //item 1 will always be the Segment node from Segments
             checkNode(lone_segment, "Segment"); //check that lone segment is correct. Again, this should never occur     
@@ -64,7 +53,6 @@ public class SplitMerger
             String tmp_name = "";
             String tmp_gold = "";
 
-            System.out.println("searching");
             for (int i = 0; i < splits_queue.size(); i++) //need index from this loop
             {
                 SplitsContainer sc = splits_queue.get(i);
@@ -91,7 +79,7 @@ public class SplitMerger
                     findNode(split_copy, target);
                     checkNode(split_copy, target);
                     found_node = found_node.getChildNodes().item(1); //item one is real time where the time should be inputted
-
+                    
                     found_node.setTextContent(tmp_gold);
                     
                     found_node = null;

@@ -94,59 +94,59 @@ public class SplitPuller
     }
 
     /*
-        This may be able to be cleaned up, but i wouldnt know how
+        This may be able to be cleaned up, but i wouldnt know how. It's a lot of manually checking each case.
     */
     public SplitsContainer cleanSplitNames(SplitsContainer splits)
     {
         System.out.println("Cleaning subsplits...");
         for(int i = 0; i < splits.getContainer().size(); i++)
         {
-            StringBuffer name = new StringBuffer(splits.getContainer().get(i).getSplitName());
+            StringBuffer name = new StringBuffer(splits.getContainer().get(i).getSplitName()); //StringBuffer to reduce load on stack/heap
             if(name.charAt(0) != '-' && name.charAt(0) != '{')
             {
                 if(i < splits.getContainer().size() - 1)
                 {
                     splits.getContainer().get(i).setSplitName("-" + name.toString());
                 }
+                
                 else
                 {
                     if(splits.getGame().equals(""))
                     {   //if no game name attached to splits, use this default
                         splits.getContainer().get(i).setSplitName("{Subsplit}" + name.toString());
                     } 
+
                     else
                     {   //if does have name, use it
                         splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.toString());
                     }
                 }
             }
+
             else if(name.charAt(0) == '{' && i < splits.getContainer().size() - 1)
             {
                 int end = name.indexOf("}");
                 //remove the {subsplit} from the start of the split name
                 splits.getContainer().get(i).setSplitName("-" + name.substring(end + 1).trim());
             }
+
             else if(name.charAt(0) == '-' && i == splits.getContainer().size() - 1)
             {
                 //String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
                 if(splits.getGame().equals(""))
-                {
                     splits.getContainer().get(i).setSplitName("{Subsplit}" + name.substring(1).trim());
-                }
+
                 else
-                {
                     splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(1).trim());
-                }
             }
 
             else if(name.charAt(0) == '{' && i == splits.getContainer().size() - 1)
             {
                 int end = name.indexOf("}");
                 String subsplit = name.substring(1, end);
+
                 if(!subsplit.equals(splits.getGame()))
-                {
                     splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(end + 1));
-                }
             }
         }
         return splits;
