@@ -13,6 +13,9 @@ This would be useful for mutligame runners, such as people who run the Multi Mar
 The program is run from terminal using the following command:
 `java -jar lsm.jar`
 
+If you wish to build from source. Run the following command from the /src directory:
+`jar cvfe lsm.jar App App.class Split.class SplitsContainer.class SplitPuller.class SplitMerger.class`
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
