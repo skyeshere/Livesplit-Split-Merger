@@ -6,7 +6,7 @@ This aim of this project is to make a program that merges multiple livesplit fil
 This would be useful for mutligame runners, such as people who run the Multi Mario 602.
 
 ## Dependencies
-[Latest version](https://www.oracle.com/java/technologies/downloads/#java26 of Java SE) is recommended
+[Latest version of Java SE](https://www.oracle.com/java/technologies/downloads/#java26) is recommended
 
 ## Usage
 
