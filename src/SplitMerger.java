@@ -25,7 +25,7 @@ public class SplitMerger
         this.splits_queue = new ArrayList<>();
     }
 
-    public void mergeSplits()
+    public Document mergeSplits()
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try
@@ -113,32 +113,36 @@ public class SplitMerger
             }
 
             //extra info from user
-            String file_name = "";
-            System.out.println("\nMerge successful! \nWhat would you like to name the file? (default= merged)");
-            file_name = input.nextLine();
+            // String file_name = "";
+            // System.out.println("\nMerge successful! \nWhat would you like to name the file? (default= merged)");
+            // file_name = input.nextLine();
 
-            if (file_name == "") //default case
-            {
-                file_name = "merged";
-            }
-            else if(file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
-            {
-                file_name = file_name.substring(0, file_name.length() - 4); //remove the .lss if the user has inputted it
-            }
+            // if (file_name == "") //default case
+            // {
+            //     file_name = "merged";
+            // }
+            // else if(file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
+            // {
+            //     file_name = file_name.substring(0, file_name.length() - 4); //remove the .lss if the user has inputted it
+            // }
 
             /* saves new splits file */
-            TransformerFactory tff = TransformerFactory.newInstance();
-            Transformer tf = tff.newTransformer();
-            DOMSource source = new DOMSource(doc);
+            //TransformerFactory tff = TransformerFactory.newInstance();
+            // Transformer tf = tff.newTransformer();
+            // DOMSource source = new DOMSource(doc);
 
-            StreamResult result = new StreamResult(file_name + ".lss");
-            tf.transform(source, result);
-            System.out.println("Merging complete, file saved as " + file_name + ".lss");
+            // StreamResult result = new StreamResult(file_name + ".lss");
+            // tf.transform(source, result);
+            // System.out.println("Merging complete, file saved as " + file_name + ".lss");
+
+            System.out.println("\nMerge successful!");
+            return doc;
         }
         catch(Exception e)
         {   
             System.err.println("An error has occurred in the merging process, please try again.");
             e.printStackTrace();
+            return null;
         }
     }
 

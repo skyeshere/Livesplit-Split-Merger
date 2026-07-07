@@ -7,12 +7,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-
-/**
- * This redo is to replace the other awful for loop tree search that plagues this project.
- * SplitMerger.java has already been redone, now it is time for SplitPuller.java
- */
-
 public class SplitPuller 
 {
     String file;

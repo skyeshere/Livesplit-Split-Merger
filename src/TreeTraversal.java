@@ -44,7 +44,7 @@ public class TreeTraversal {
         new TreeTraversal();
     }
 
-    public  void findNode(Node n, String target)
+    public void findNode(Node n, String target)
     {
         System.out.println(n.getNodeName());
         if (n.getNodeName().equals("#text")) return;
@@ -63,7 +63,17 @@ public class TreeTraversal {
 
 		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
 		{
-			findNode(children.item(i), target);
-		}
+			//findNode(children.item(i), target);	      
+        }
+    }
+
+    public Node getFoundNode()
+    {
+        return this.found_node;
+    }
+
+    public void setFoundNodeNull()
+    {
+        this.found_node = null;
     }
 }

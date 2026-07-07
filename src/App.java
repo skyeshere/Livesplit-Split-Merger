@@ -1,10 +1,16 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Document;
 
 public class App 
 {
     ArrayList<String> args = new ArrayList<>();
     Scanner input = new Scanner(System.in);
+    Document merged_splits;
 
     public App()
     {
@@ -18,7 +24,10 @@ public class App
             sm.queueAdd(sp.pullSplitDetails());
         }
 
-        sm.mergeSplits();
+        merged_splits = sm.mergeSplits();
+
+        MetadataInput mi = new MetadataInput(merged_splits);
+        mi.inputMetadata();
     }
     
     public static void main(String args[])
