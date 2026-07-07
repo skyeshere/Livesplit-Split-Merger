@@ -8,6 +8,8 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import java.util.regex.*;
+import java.util.Scanner;
 
 public class SplitMerger 
 {
@@ -15,6 +17,8 @@ public class SplitMerger
     Node split_copy; 
 	Node found_node = null;
     String target = "";
+
+    Scanner input = new Scanner(System.in);
 
     public SplitMerger()
     {
@@ -87,7 +91,7 @@ public class SplitMerger
                     //set the new segment node into the xml tree
                     segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
                 }
-                if (i != splits_queue.size() -1) //if not the last game in the queue
+                if (i != splits_queue.size() -1) //if not the last game in the queue, add game switch segment between games
                 {
                     target = "Name";
                     findNode(split_copy, target);
@@ -108,15 +112,28 @@ public class SplitMerger
                 }
             }
 
+            //extra info from user
+            String file_name = "";
+            System.out.println("\nMerge successful! \nWhat would you like to name the file? (default= merged)");
+            file_name = input.nextLine();
+
+            if (file_name == "") //default case
+            {
+                file_name = "merged";
+            }
+            else if(file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
+            {
+                file_name = file_name.substring(0, file_name.length() - 4); //remove the .lss if the user has inputted it
+            }
+
             /* saves new splits file */
             TransformerFactory tff = TransformerFactory.newInstance();
             Transformer tf = tff.newTransformer();
             DOMSource source = new DOMSource(doc);
 
-            StreamResult result = new StreamResult("merged.lss");
+            StreamResult result = new StreamResult(file_name + ".lss");
             tf.transform(source, result);
-            System.out.println("Merging complete, file saved as merged.lss");
-            
+            System.out.println("Merging complete, file saved as " + file_name + ".lss");
         }
         catch(Exception e)
         {   
@@ -157,7 +174,7 @@ public class SplitMerger
     {
         if (found_node == null || !found_node.getNodeName().equals(target))
         {
-            System.err.println("targetted node not found :/ make sure your empty split.lss file isn't altered");
+            System.err.println("targetted node not found :/ make sure your split files aren't missing certain tags");
             System.exit(1);
         }       
     }
