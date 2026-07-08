@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Run version="1.7.0">
+  <GameIcon/>
+  <GameName>
+  </GameName>
+  <CategoryName>
+  </CategoryName>
+  <LayoutPath>
+  </LayoutPath>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+    <CustomVariables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory/>
+  <Segments>
+    
+  <Segment>
+      <Name>-BOB</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:01:40.2923552</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:40.0530251</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-WF</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:04:45.3791044</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:03:03.4271515</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-CCM</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:06:05.9733899</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:17.9203285</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-DW</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:08:00.9006073</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:54.9272174</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-SSL</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:09:24.0059976</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:22.2870745</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-LLL</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:09:57.7327556</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:00:32.4115144</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-HMC</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:11:16.2313918</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:16.6385191</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-DDD</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:12:52.0275371</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:26.1094370</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-FS</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:14:25.5270463</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:26.3369696</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Super Mario 64}BITS</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:17:36.6597706</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:02:34.4668736</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>Game Switch</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:17:36.6597706</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:00.000</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-BOB</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:01:40.2923552</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:40.0530251</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-WF</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:04:45.3791044</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:03:03.4271515</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-CCM</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:06:05.9733899</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:17.9203285</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-DW</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:08:00.9006073</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:54.9272174</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-SSL</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:09:24.0059976</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:22.2870745</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-LLL</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:09:57.7327556</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:00:32.4115144</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-HMC</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:11:16.2313918</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:16.6385191</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-DDD</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:12:52.0275371</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:26.1094370</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>-FS</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:14:25.5270463</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:01:26.3369696</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment><Segment>
+      <Name>{Super Mario 64}BITS</Name>
+      <Icon/>
+
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+          <RealTime/>
+        </SplitTime>
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:17:36.6597706</RealTime>
+        </SplitTime>
+
+      </SplitTimes>
+
+      <BestSegmentTime>
+        <RealTime>00:02:34.4668736</RealTime>
+      </BestSegmentTime>
+      <SegmentHistory/>
+    </Segment></Segments>
+  <AutoSplitterSettings/>
+</Run>

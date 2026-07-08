@@ -15,23 +15,21 @@ public class App
 
     public App()
     {
-        // args = userInput();
+        args = userInput();
 
-        // SplitMerger sm = new SplitMerger();
+        SplitMerger sm = new SplitMerger(import_pb);
 
-        // for(String file : args)
-        // {
-        //     SplitPuller sp = new SplitPuller(file); 
-        //     sm.queueAdd(sp.pullSplitDetails());
-        // }
+        for(String file : args)
+        {
+            SplitPuller sp = new SplitPuller(file, import_pb); 
+            sm.queueAdd(sp.pullSplitDetails());
+        }
 
-        // merged_splits = sm.mergeSplits();
+        merged_splits = sm.mergeSplits();
 
-        // MetadataInput mi = new MetadataInput(merged_splits);
-        // mi.inputMetadata();
-
-        new TreeTraversal();
-
+        MetadataInput mi = new MetadataInput(merged_splits);
+        mi.inputMetadata();
+        // new TreeTraversal();
     }
     
     public static void main(String args[])

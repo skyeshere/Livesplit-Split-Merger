@@ -11,15 +11,19 @@ public class SplitPuller
 {
     String file;
     String game;
-    String target;
+    String target_name = "";
+    String target_attribute = "";
     NodeList segments = null;
     Split split;
     Node found_node = null;
+    TreeTraversal tt = new TreeTraversal();
+    Boolean import_pb = false;
 
-    public SplitPuller(String file)
+    public SplitPuller(String file, Boolean ip)
     {
         this.file = file;
         this.segments = getSplits(file);
+        this.import_pb = ip;
     }
 
     public NodeList getSplits(String file)
@@ -31,6 +35,7 @@ public class SplitPuller
             Document doc = builder.parse(file); //parse split file
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
+
             for(int i = 0; i < run.getLength(); i++) //find segments node
             {
                 //gets game name from spits
@@ -44,6 +49,8 @@ public class SplitPuller
                     return run.item(i).getChildNodes(); //return segments node list
                 }
             }
+
+
         } 
         catch (ParserConfigurationException | SAXException | IOException e) 
         {
@@ -64,17 +71,34 @@ public class SplitPuller
             Node single_segment = segments.item(i); //root node to be searched
             if (single_segment.getNodeName().equals("#text")) continue; //this line fixes  the issue of it crashing :/
             
-            target = "Name";
-            findNode(single_segment, target);
+            target_name = "Name";
+            tt.findNode(single_segment, target_name, "");
+            found_node = tt.getFoundNode();
+            tt.setFoundNodeNull();
+
             split.setSplitName(found_node.getTextContent());
             found_node = null;
 
-            target = "BestSegmentTime";
-            findNode(single_segment, target);
-            found_node = found_node.getChildNodes().item(1);
+            target_name = "BestSegmentTime";
+            tt.findNode(single_segment, target_name, "");
+            found_node = tt.getFoundNode().getChildNodes().item(1);
+            tt.setFoundNodeNull();
+
             split.setSplitGold(found_node.getTextContent());
             found_node = null;
 
+            if (import_pb) //if import_pb == true
+            {
+                target_name = "SplitTime";
+                target_attribute = "Personal Best";
+
+                tt.findNode(single_segment, target_name, target_attribute);
+                found_node = tt.getFoundNode().getChildNodes().item(1); //this should be RealTime
+                tt.setFoundNodeNull();
+
+                split.setSplitPB(found_node.getTextContent());
+                found_node = null;
+            }
             
             //should filter out completely empty records being read from the split file and
             //keep records with a name and empty gold  
@@ -146,25 +170,25 @@ public class SplitPuller
         return splits;
     }
 
-    public void findNode(Node n, String target)
-    {
-        String curr_node = n.getNodeName();
-        if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
+    // public void findNode(Node n, String target)
+    // {
+    //     String curr_node = n.getNodeName();
+    //     if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
         
-        if (curr_node.equals(target)) //check if new root's name is equal to the target node
-        {
-			found_node = n;
-			return;
-        }
+    //     if (curr_node.equals(target)) //check if new root's name is equal to the target node
+    //     {
+	// 		found_node = n;
+	// 		return;
+    //     }
 
-		NodeList children = n.getChildNodes(); //pull all child nodes of current root
+	// 	NodeList children = n.getChildNodes(); //pull all child nodes of current root
 		
-		if (children.getLength() < 1) return; //return if no children
+	// 	if (children.getLength() < 1) return; //return if no children
 
-		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
-		{
-			if (found_node != null) return;
-			findNode(children.item(i), target);
-		}
-    }
+	// 	for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
+	// 	{
+	// 		if (found_node != null) return; 
+	// 		findNode(children.item(i), target);
+	// 	}
+    // }
 }

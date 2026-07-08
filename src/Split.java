@@ -37,7 +37,7 @@ public class Split
         split_gold = gold;
     }
 
-    public void setsplitPB(String pb)
+    public void setSplitPB(String pb)
     {
         split_pb = pb;
     }
