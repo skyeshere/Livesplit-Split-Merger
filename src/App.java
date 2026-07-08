@@ -11,23 +11,27 @@ public class App
     ArrayList<String> args = new ArrayList<>();
     Scanner input = new Scanner(System.in);
     Document merged_splits;
+    Boolean import_pb = false;
 
     public App()
     {
-        args = userInput();
+        // args = userInput();
 
-        SplitMerger sm = new SplitMerger();
+        // SplitMerger sm = new SplitMerger();
 
-        for(String file : args)
-        {
-            SplitPuller sp = new SplitPuller(file); 
-            sm.queueAdd(sp.pullSplitDetails());
-        }
+        // for(String file : args)
+        // {
+        //     SplitPuller sp = new SplitPuller(file); 
+        //     sm.queueAdd(sp.pullSplitDetails());
+        // }
 
-        merged_splits = sm.mergeSplits();
+        // merged_splits = sm.mergeSplits();
 
-        MetadataInput mi = new MetadataInput(merged_splits);
-        mi.inputMetadata();
+        // MetadataInput mi = new MetadataInput(merged_splits);
+        // mi.inputMetadata();
+
+        new TreeTraversal();
+
     }
     
     public static void main(String args[])

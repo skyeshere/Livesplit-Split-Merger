@@ -26,7 +26,13 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
+
+        <SplitTime name="Sum of PBs">
+          <RealTime>00:00:00</RealTime>
+        </SplitTime>
+
       </SplitTimes>
+
       <BestSegmentTime>
         <RealTime>00:00:00</RealTime>
       </BestSegmentTime>

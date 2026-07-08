@@ -16,7 +16,7 @@ public class TreeTraversal {
         {
             //get document to parse   
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse("empty.lss");
+            Document doc = builder.parse("src/16star.lss");
 
             //set the root node to the root node of the xml tree
             Node root_node = doc.getElementsByTagName("Run").item(0);
@@ -25,11 +25,11 @@ public class TreeTraversal {
             //find the node with name target
             findNode(root_node, target);
 
-            //debug print all children of the found node
-            for (int i = 0; i < found_node.getChildNodes().getLength(); i++)
-            {
-                System.out.println(found_node.getChildNodes().item(i) + " " + i);
-            }
+            // //debug print all children of the found node
+            // for (int i = 0; i < found_node.getChildNodes().getLength(); i++)
+            // {
+            //     System.out.println(found_node.getChildNodes().item(i) + " " + i);
+            // }
             
         }
         catch(Exception e)
@@ -46,16 +46,27 @@ public class TreeTraversal {
 
     public void findNode(Node n, String target)
     {
-        System.out.println(n.getNodeName());
+        
         if (n.getNodeName().equals("#text")) return;
+        System.out.print(n.getNodeName() + " id: ");
 
-        System.out.println(n.getNodeName() + " : target = " + target );
-        if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
+        if (n.getAttributes().getLength() >= 1)
         {
-            //do blah blah blah
-            System.out.println("Found `" + target + "`");
-            found_node = n;
+            for(int i = 0; i < n.getAttributes().getLength(); i++)
+            {
+                System.out.print(n.getAttributes().item(i).getTextContent());
+            }
         }
+
+        System.out.println("");
+
+        // System.out.println(n.getNodeName() + " : target = " + target );
+        // if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
+        // {
+        //     //do blah blah blah
+        //     System.out.println("Found `" + target + "`");
+        //     found_node = n;
+        // }
 
 		NodeList children = n.getChildNodes(); //pull all child nodes of current root
 		
@@ -63,7 +74,7 @@ public class TreeTraversal {
 
 		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
 		{
-			//findNode(children.item(i), target);	      
+			findNode(children.item(i), target);	      
         }
     }
 

@@ -87,6 +87,7 @@ public class SplitMerger
                     //set the new segment node into the xml tree
                     segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node    
                 }
+                
                 if (i != splits_queue.size() -1) //if not the last game in the queue, add game switch segment between games
                 {
                     target = "Name";
