@@ -16,7 +16,7 @@ The program is run from terminal using the following command:
 
 If you wish to build from source. Run the following command from the /bin directory:
 
-`jar cvfe lsm.jar *.class`
+`jar cvfe lsm.jar App *.class`
 
 ## Folder Structure
 
