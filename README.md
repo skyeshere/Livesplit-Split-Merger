@@ -22,5 +22,6 @@ If you wish to build from source. Run the following command from the /bin direct
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources and class files, cause I didnt send them to a different folder... whoops.
-- `lib`: the folder to maintain dependencies
+- `src`: contains source .java files
+- `bin`: contains .class binaries
+- `lib`: contains project dependencies
