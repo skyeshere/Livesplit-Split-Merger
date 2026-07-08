@@ -6,8 +6,8 @@ import org.w3c.dom.NodeList;
 
 public class TreeTraversal {
     Node found_node = null;
-    String target = "";
-    Boolean found = false;
+    String target_name = "";
+    String target_attribute = "";
 
     public TreeTraversal()
     {
@@ -20,10 +20,11 @@ public class TreeTraversal {
 
             //set the root node to the root node of the xml tree
             Node root_node = doc.getElementsByTagName("Run").item(0);
-            target = "BestSegmentTime";
+            target_name = "GameName";
+            target_attribute = "";
 
             //find the node with name target
-            findNode(root_node, target);
+            findNode(root_node, target_name, target_attribute);
 
             // //debug print all children of the found node
             // for (int i = 0; i < found_node.getChildNodes().getLength(); i++)
@@ -39,42 +40,37 @@ public class TreeTraversal {
         }
     }
 
-    public static void main(String[] args)
+    public void findNode(Node n, String target_name, String target_attribute)
     {
-        new TreeTraversal();
-    }
+        curr_name = n.getNodeName();
 
-    public void findNode(Node n, String target)
-    {
-        
-        if (n.getNodeName().equals("#text")) return;
-        System.out.print(n.getNodeName() + " id: ");
+        if (curr_name.equals("#text")) return;
 
-        if (n.getAttributes().getLength() >= 1)
+        // System.out.println(n.getNodeName() + " : target = " + target );
+        if (curr_name.equals(target_name)) //check if new root's name is equal to the target node
         {
-            for(int i = 0; i < n.getAttributes().getLength(); i++)
+            if (!target_attribute.equals("") && n.getAttributes().item(0).getTextContent().equals(target_attribute)) //item(0) should be enough. no node has more than one attribute i THINK
             {
-                System.out.print(n.getAttributes().item(i).getTextContent());
+                //check if attribute is the same as the one we are looking for
+                found_node = n;
+                return;
+            }
+
+            else if (target_attribute.equals(""))
+            {
+                //if we're not looking for an attribute, go as normal 
+                found_node = n;
+                return;
             }
         }
 
-        System.out.println("");
-
-        // System.out.println(n.getNodeName() + " : target = " + target );
-        // if (n.getNodeName().equals(target)) //check if new root's name is equal to the target node
-        // {
-        //     //do blah blah blah
-        //     System.out.println("Found `" + target + "`");
-        //     found_node = n;
-        // }
-
 		NodeList children = n.getChildNodes(); //pull all child nodes of current root
-		
+
 		if (children.getLength() < 1) return; //return if no children
 
 		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
 		{
-			findNode(children.item(i), target);	      
+			findNode(children.item(i), target_name, target_attribute);	      
         }
     }
 

@@ -15,22 +15,22 @@ public class App
 
     public App()
     {
-        args = userInput();
+        // args = userInput();
 
-        SplitMerger sm = new SplitMerger();
+        // SplitMerger sm = new SplitMerger();
 
-        for(String file : args)
-        {
-            SplitPuller sp = new SplitPuller(file); 
-            sm.queueAdd(sp.pullSplitDetails());
-        }
+        // for(String file : args)
+        // {
+        //     SplitPuller sp = new SplitPuller(file); 
+        //     sm.queueAdd(sp.pullSplitDetails());
+        // }
 
-        merged_splits = sm.mergeSplits();
+        // merged_splits = sm.mergeSplits();
 
-        MetadataInput mi = new MetadataInput(merged_splits);
-        mi.inputMetadata();
+        // MetadataInput mi = new MetadataInput(merged_splits);
+        // mi.inputMetadata();
 
-        // new TreeTraversal();
+        new TreeTraversal();
 
     }
     
@@ -92,13 +92,12 @@ public class App
 
         while (!result.toLowerCase().equals("y") && !result.toLowerCase().equals("n")) //validate yes or no
         {
-            System.out.println("Please enter `y` or `n` to confirm your option\n");
+            System.out.println("Please enter 'y' or 'n' to confirm your option\n");
             System.out.print("Do you want to import your pbs under a custom comparison? (y/n): ");
             result = input.nextLine();
         }
 
-        import_pb = result.matches("y");
-        System.out.println(import_pb);
+        import_pb = result.matches("y"); //turn true if matches 'y'
 
         return args;
     }
