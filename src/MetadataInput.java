@@ -36,9 +36,7 @@ public class MetadataInput
 		System.out.print("What game is this for? (default= blank): ");
 		game_name = input.nextLine();
 
-		System.out.print("\n");
-
-		System.out.print("What category is this for? (default= blank): ");
+		System.out.print("\nWhat category is this for? (default= blank): ");
 		cat_name = input.nextLine();
 
 		//search tree and put in data if needed
@@ -68,7 +66,7 @@ public class MetadataInput
 	public String nameSplitFile()
 	{
 		String file_name = "";
-		System.out.println("Enter the name you want for this file (default= merged):");
+		System.out.print("\nEnter the name you want for this file (default= merged):");
 		file_name = input.nextLine();
 
 	    if (file_name == "") //default case
@@ -99,7 +97,8 @@ public class MetadataInput
 
 		catch(Exception e)
 		{
-			System.err.println("error!");
+			System.err.println("error while saving splits: ");
+			System.err.println(e);
 		}
 	}
 
@@ -110,7 +109,6 @@ public class MetadataInput
         
         if (curr_node.equals(target)) //check if new root's name is equal to the target node
         {
-        	System.out.println(target + " found!");
 			found_node = n;
 			return;
         }

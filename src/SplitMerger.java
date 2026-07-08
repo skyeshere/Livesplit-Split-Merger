@@ -39,10 +39,8 @@ public class SplitMerger
 
             //find the segments tag
 			findNode(root_node, target);
-            checkNode(found_node, target);
 
             Node lone_segment = found_node.getChildNodes().item(1); //item 1 will always be the Segment node from Segments
-            checkNode(lone_segment, "Segment"); //check that lone segment is correct. Again, this should never occur     
 
             //copy the empty segment
             split_copy = lone_segment.cloneNode(true);
@@ -71,8 +69,7 @@ public class SplitMerger
                     /* search for both name and gold nodes from split_copy */
                     //set name
                     target = "Name";
-                    findNode(split_copy, target); //sets found_node to target when found
-                    checkNode(found_node, target);                  
+                    findNode(split_copy, target); //sets found_node to target when found             
                     found_node.setTextContent(tmp_name);
 
                     found_node = null;
@@ -81,9 +78,8 @@ public class SplitMerger
                     //find the BestSegmentTime
                     target = "BestSegmentTime";
                     findNode(split_copy, target);
-                    checkNode(split_copy, target);
+
                     found_node = found_node.getChildNodes().item(1); //item one is real time where the time should be inputted
-                    
                     found_node.setTextContent(tmp_gold);
                     
                     found_node = null;
@@ -95,14 +91,12 @@ public class SplitMerger
                 {
                     target = "Name";
                     findNode(split_copy, target);
-                    checkNode(split_copy, target);
                     found_node.setTextContent("Game Switch");
 
                     found_node = null;
 
                     target = "BestSegmentTime";
                     findNode(split_copy, target);
-                    checkNode(split_copy, target);
                     found_node = found_node.getChildNodes().item(1); //item 1 is real time where the time should be inputted
                     found_node.setTextContent("00:01:00.000"); //1 minute seems resonable imo
 
@@ -111,29 +105,6 @@ public class SplitMerger
                     segments_node.appendChild(split_copy.cloneNode(true)); //add the new split to the segments node  
                 }
             }
-
-            //extra info from user
-            // String file_name = "";
-            // System.out.println("\nMerge successful! \nWhat would you like to name the file? (default= merged)");
-            // file_name = input.nextLine();
-
-            // if (file_name == "") //default case
-            // {
-            //     file_name = "merged";
-            // }
-            // else if(file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
-            // {
-            //     file_name = file_name.substring(0, file_name.length() - 4); //remove the .lss if the user has inputted it
-            // }
-
-            /* saves new splits file */
-            //TransformerFactory tff = TransformerFactory.newInstance();
-            // Transformer tf = tff.newTransformer();
-            // DOMSource source = new DOMSource(doc);
-
-            // StreamResult result = new StreamResult(file_name + ".lss");
-            // tf.transform(source, result);
-            // System.out.println("Merging complete, file saved as " + file_name + ".lss");
 
             System.out.println("\nMerge successful!");
             return doc;
@@ -171,15 +142,5 @@ public class SplitMerger
 			if (found_node != null) return;
 			findNode(children.item(i), target);
 		}
-    }
-
-    //n is the node being checked, t is the target string
-    public void checkNode(Node n, String t)
-    {
-        if (found_node == null || !found_node.getNodeName().equals(target))
-        {
-            System.err.println("targetted node not found :/ make sure your split files aren't missing certain tags");
-            System.exit(1);
-        }       
     }
 }
