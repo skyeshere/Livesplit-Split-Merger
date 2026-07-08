@@ -14,13 +14,14 @@ The program is run from terminal using the following command:
 
 `java -jar lsm.jar`
 
-If you wish to build from source. Run the following command from the /src directory:
+If you wish to build from source. Run the following command from the /bin directory:
 
-`jar cvfe lsm.jar App App.class Split.class SplitsContainer.class SplitPuller.class SplitMerger.class`
+`jar cvfe lsm.jar App *.class`
 
 ## Folder Structure
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources and class files, cause I didnt send them to a different folder... whoops.
-- `lib`: the folder to maintain dependencies
+- `src`: contains source .java files
+- `bin`: contains .class binaries
+- `lib`: contains project dependencies
