@@ -42,7 +42,7 @@ public class MetadataInput
 		//search tree and put in data if needed
 		Node root_node = doc.getElementsByTagName("Run").item(0);
 		String target = "";
-		if(!game_name.equals(""))
+		if (!game_name.equals(""))
 		{
 			//search and replace
 			target = "GameName";
@@ -51,7 +51,7 @@ public class MetadataInput
 			found_node = null;
 		}
 
-		if(!cat_name.equals(""))
+		if (!cat_name.equals(""))
 		{
 			//search and replace
 			target = "CategoryName";
@@ -73,7 +73,7 @@ public class MetadataInput
 	    {
 	    	file_name = "merged";
 	    }
-	    else if(file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
+	    else if (file_name.length() >= 4 && file_name.substring(file_name.length() - 4).toLowerCase().equals(".lss")) //if the file name is long enough and has the .lss extension
 	    {
 	    	file_name = file_name.substring(0, file_name.length() - 4); //remove the .lss if the user has inputted it
 	    }
