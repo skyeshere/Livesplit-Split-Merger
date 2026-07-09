@@ -36,7 +36,7 @@ public class MetadataInput
 		System.out.print("What game is this for? (default= blank): ");
 		game_name = input.nextLine();
 
-		System.out.print("\nWhat category is this for? (default= blank): ");
+		System.out.print("What category is this for? (default= blank): ");
 		cat_name = input.nextLine();
 
 		//search tree and put in data if needed
@@ -93,7 +93,7 @@ public class MetadataInput
 
 	        StreamResult result = new StreamResult(fn + ".lss");
 	        tf.transform(dom_merged, result);
-	        System.out.println("Merging complete, file saved as " + fn + ".lss");
+	        System.out.println("\nMerging complete, file saved as " + fn + ".lss");
 		}
 
 		catch(Exception e)
