@@ -66,12 +66,12 @@ public class App
 
         result = ""; //reset result for next input
 
-        System.out.println("\nEnter the file names for your splits! Keeping them simple is the best");
+        System.out.println("\nEnter the <<FILE NAMES>> for your splits! Keeping them simple is the best");
         System.out.println("e.g: randomsplitname.lss\n");
 
         for (int i = 0; i < number_of_splits; i++)
         {
-            System.out.print("file " + (i + 1) + ": "); //what file number the user is on (1 -> numb splits)
+            System.out.print("File " + (i + 1) + ": "); //what file number the user is on (1 -> numb splits)
             result = input.nextLine();
 
             while (result.length() <= 4 || !result.substring(result.length() - 4).toLowerCase().equals(".lss")) //entry validation

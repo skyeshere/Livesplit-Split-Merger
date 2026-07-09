@@ -88,6 +88,7 @@ public class MetadataInput
 			//save new merged split file!! 
 			TransformerFactory tff = TransformerFactory.newInstance();
 	        Transformer tf = tff.newTransformer();
+
 	        DOMSource dom_merged = new DOMSource(doc);
 
 	        StreamResult result = new StreamResult(fn + ".lss");
