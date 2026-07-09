@@ -19,7 +19,7 @@ public class App
 
         SplitMerger sm = new SplitMerger(import_pb);
 
-        for(String file : args)
+        for (String file : args)
         {
             SplitPuller sp = new SplitPuller(file, import_pb); 
             sm.queueAdd(sp.pullSplitDetails());
@@ -29,7 +29,6 @@ public class App
 
         MetadataInput mi = new MetadataInput(merged_splits);
         mi.inputMetadata();
-        // new TreeTraversal();
     }
     
     public static void main(String args[])
@@ -39,7 +38,7 @@ public class App
 
     public ArrayList<String> userInput()
     {
-        if((int)(Math.random()*10) % 2 == 0) //Shoutout to MarvJungs for thinking of this idea!!!!! PLEASE DONATE IM BEGGIUNG
+        if ((int)(Math.random()*10) % 2 == 0) //Shoutout to MarvJungs for thinking of this idea!!!!! PLEASE DONATE IM BEGGIUNG
         {
             System.out.println("Consider donating! You can do that on https://streamelements.com/skyeves/tip");
         }
@@ -67,15 +66,15 @@ public class App
 
         result = ""; //reset result for next input
 
-        System.out.println("Enter the file names for your splits! Keeping them simple is the best");
-        System.out.println("e.g: randomsplitname.lss");
+        System.out.println("\nEnter the file names for your splits! Keeping them simple is the best");
+        System.out.println("e.g: randomsplitname.lss\n");
 
-        for(int i = 0; i < number_of_splits; i++)
+        for (int i = 0; i < number_of_splits; i++)
         {
-            System.out.print("file " + (i + 1) + ":"); //what file number the user is on (1 -> numb splits)
+            System.out.print("file " + (i + 1) + ": "); //what file number the user is on (1 -> numb splits)
             result = input.nextLine();
 
-            while(result.length() <= 4 || !result.substring(result.length() - 4).toLowerCase().equals(".lss")) //entry validation
+            while (result.length() <= 4 || !result.substring(result.length() - 4).toLowerCase().equals(".lss")) //entry validation
             {
                 System.out.println("Please enter a valid split file name (ending in .lss): ");
                 result = input.nextLine();
@@ -95,8 +94,9 @@ public class App
             result = input.nextLine();
         }
 
-        import_pb = result.matches("y"); //turn true if matches 'y'
+        import_pb = result.matches("y"); //turn true if matches 'y'. i am lowk being an asshole by making them type n instead of literally anything else that isnt y lmfao :p
 
+        System.out.print("\n");
         return args;
     }
 }

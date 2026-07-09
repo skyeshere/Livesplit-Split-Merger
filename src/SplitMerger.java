@@ -10,17 +10,23 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import java.util.regex.*;
 import java.util.Scanner;
+import java.time.*;
 
 public class SplitMerger 
 {
     ArrayList<SplitsContainer> splits_queue;   
+
     Node split_copy; 
 	Node found_node = null;
+
     String target_name = "";
     String target_attribute = "";
+
     Boolean import_pb = false;
 
     TreeTraversal tt = new TreeTraversal();
+    TimeAdder total_elapsed_time = new TimeAdder();
+
     Scanner input = new Scanner(System.in);
 
     public SplitMerger(Boolean ip)
@@ -62,6 +68,7 @@ public class SplitMerger
             String tmp_gold = "";
             String tmp_pb   = "";
 
+            total_elapsed_time = total_elapsed_time.parse("00:00:00.00000");
             for (int i = 0; i < splits_queue.size(); i++) //need index from this loop
             {
                 SplitsContainer sc = splits_queue.get(i);
@@ -100,10 +107,24 @@ public class SplitMerger
 
                         tt.findNode(split_copy, target_name, target_attribute);
                         found_node = tt.getFoundNode().getChildNodes().item(1);
-                        tt.setFoundNodeNull();
 
-                        found_node.setTextContent(tmp_pb);
+                        if (tmp_pb.equals("")) //if the split was skipped...
+                        {
+                            tmp_pb = "00:00:00"; //needed for the next split when adding the delta
+                            found_node.setTextContent(""); //make sure split is empty
+                        }
+                        else //if the split is normal
+                        {
+                            TimeAdder ta_pb = new TimeAdder();
+                            ta_pb = ta_pb.parse(tmp_pb);
+                            ta_pb = ta_pb.add(total_elapsed_time);
+
+                            found_node.setTextContent(ta_pb.toString());
+                        }
+
+                        tt.setFoundNodeNull();
                         found_node = null;
+
                     }
 
                     //set the new segment node into the xml tree
@@ -135,9 +156,20 @@ public class SplitMerger
 
                         tt.findNode(split_copy, target_name, target_attribute);
                         found_node = tt.getFoundNode().getChildNodes().item(1);
-                        tt.setFoundNodeNull();
+                        
+                        /**
+                         * add current pb and 1 minute to total_elapsed_time and set that to node text
+                        */
+                        TimeAdder previous_segment = new TimeAdder();
+                        previous_segment = previous_segment.parse(tmp_pb);
 
-                        //found_node.setTextContent("00:01:00.000");
+                        TimeAdder gameswitch_segment = new TimeAdder();
+                        gameswitch_segment = gameswitch_segment.parse("00:01:00.000");
+
+                        total_elapsed_time = total_elapsed_time.add(previous_segment).add(gameswitch_segment);
+                        found_node.setTextContent(total_elapsed_time.toString());
+
+                        tt.setFoundNodeNull();
                         found_node = null;
                     }
 
@@ -148,7 +180,7 @@ public class SplitMerger
             System.out.println("\nMerge successful!");
             return doc;
         }
-        catch(Exception e)
+        catch (Exception e)
         {   
             System.err.println("An error has occurred in the merging process, please try again.");
             e.printStackTrace();
@@ -159,27 +191,5 @@ public class SplitMerger
     public void queueAdd(SplitsContainer s)
     {
         this.splits_queue.add(s);
-    }
-
-    public void findNode(Node n, String target)
-    {
-        String curr_node = n.getNodeName();
-        if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
-        
-        if (curr_node.equals(target)) //check if new root's name is equal to the target node
-        {
-			found_node = n;
-			return;
-        }
-
-		NodeList children = n.getChildNodes(); //pull all child nodes of current root
-		
-		if (children.getLength() < 1) return; //return if no children
-
-		for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
-		{
-			if (found_node != null) return;
-			findNode(children.item(i), target);
-		}
     }
 }

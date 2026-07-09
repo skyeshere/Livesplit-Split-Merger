@@ -36,10 +36,10 @@ public class SplitPuller
 
             NodeList run = doc.getElementsByTagName("Run").item(0).getChildNodes();
 
-            for(int i = 0; i < run.getLength(); i++) //find segments node
+            for (int i = 0; i < run.getLength(); i++) //find segments node
             {
                 //gets game name from spits
-                if(run.item(i).getNodeName().equals("GameName"))
+                if (run.item(i).getNodeName().equals("GameName"))
                 {
                     game = run.item(i).getTextContent();
                 }
@@ -65,7 +65,7 @@ public class SplitPuller
         SplitsContainer splits_container = new SplitsContainer();
         splits_container.setGame(game); //this is lowk an extremely arbitery place to set this but it works :p 
 
-        for(int i = 0; i < segments.getLength(); i++) //first for loop here can be changed into for-each
+        for (int i = 0; i < segments.getLength(); i++) //first for loop here can be changed into for-each
         {
             Split split = new Split();
             Node single_segment = segments.item(i); //root node to be searched
@@ -94,15 +94,24 @@ public class SplitPuller
 
                 tt.findNode(single_segment, target_name, target_attribute);
                 found_node = tt.getFoundNode().getChildNodes().item(1); //this should be RealTime
+
                 tt.setFoundNodeNull();
 
-                split.setSplitPB(found_node.getTextContent());
+                if (found_node == null)
+                {
+                    split.setSplitPB("");
+                }
+                else
+                {
+                    split.setSplitPB(found_node.getTextContent());
+                }
+
                 found_node = null;
             }
             
             //should filter out completely empty records being read from the split file and
             //keep records with a name and empty gold  
-            if(!split.getSplitName().equals(""))
+            if (!split.getSplitName().equals(""))
             {
                 splits_container.addSplit(split);
             }
@@ -111,25 +120,22 @@ public class SplitPuller
         return cleanSplitNames(splits_container);
     }
 
-    /*
-        This may be able to be cleaned up, but i wouldnt know how. It's a lot of manually checking each case.
-    */
     public SplitsContainer cleanSplitNames(SplitsContainer splits)
     {
         System.out.println("Cleaning subsplits...");
-        for(int i = 0; i < splits.getContainer().size(); i++)
+        for (int i = 0; i < splits.getContainer().size(); i++)
         {
             StringBuffer name = new StringBuffer(splits.getContainer().get(i).getSplitName()); //StringBuffer to reduce load on stack/heap
-            if(name.charAt(0) != '-' && name.charAt(0) != '{')
+            if (name.charAt(0) != '-' && name.charAt(0) != '{')
             {
-                if(i < splits.getContainer().size() - 1)
+                if (i < splits.getContainer().size() - 1)
                 {
                     splits.getContainer().get(i).setSplitName("-" + name.toString());
                 }
                 
                 else
                 {
-                    if(splits.getGame().equals(""))
+                    if (splits.getGame().equals(""))
                     {   //if no game name attached to splits, use this default
                         splits.getContainer().get(i).setSplitName("{Subsplit}" + name.toString());
                     } 
@@ -141,54 +147,32 @@ public class SplitPuller
                 }
             }
 
-            else if(name.charAt(0) == '{' && i < splits.getContainer().size() - 1)
+            else if (name.charAt(0) == '{' && i < splits.getContainer().size() - 1)
             {
                 int end = name.indexOf("}");
                 //remove the {subsplit} from the start of the split name
                 splits.getContainer().get(i).setSplitName("-" + name.substring(end + 1).trim());
             }
 
-            else if(name.charAt(0) == '-' && i == splits.getContainer().size() - 1)
+            else if (name.charAt(0) == '-' && i == splits.getContainer().size() - 1)
             {
                 //String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
-                if(splits.getGame().equals(""))
+                if( splits.getGame().equals(""))
                     splits.getContainer().get(i).setSplitName("{Subsplit}" + name.substring(1).trim());
 
                 else
                     splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(1).trim());
             }
 
-            else if(name.charAt(0) == '{' && i == splits.getContainer().size() - 1)
+            else if (name.charAt(0) == '{' && i == splits.getContainer().size() - 1)
             {
                 int end = name.indexOf("}");
                 String subsplit = name.substring(1, end);
 
-                if(!subsplit.equals(splits.getGame()))
+                if (!subsplit.equals(splits.getGame()))
                     splits.getContainer().get(i).setSplitName("{" + splits.getGame() + "}" + name.substring(end + 1));
             }
         }
         return splits;
     }
-
-    // public void findNode(Node n, String target)
-    // {
-    //     String curr_node = n.getNodeName();
-    //     if (curr_node.equals("#text")) return; //skips redundant fake ass nodes
-        
-    //     if (curr_node.equals(target)) //check if new root's name is equal to the target node
-    //     {
-	// 		found_node = n;
-	// 		return;
-    //     }
-
-	// 	NodeList children = n.getChildNodes(); //pull all child nodes of current root
-		
-	// 	if (children.getLength() < 1) return; //return if no children
-
-	// 	for (int i = 0; i < children.getLength(); i++) //loop through and explore child nodes
-	// 	{
-	// 		if (found_node != null) return; 
-	// 		findNode(children.item(i), target);
-	// 	}
-    // }
 }

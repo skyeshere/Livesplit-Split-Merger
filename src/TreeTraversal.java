@@ -9,37 +9,6 @@ public class TreeTraversal {
     String target_name = "";
     String target_attribute = "";
 
-    // public TreeTraversal()
-    // {
-    //     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-    //     try
-    //     {
-    //         //get document to parse   
-    //         DocumentBuilder builder = factory.newDocumentBuilder();
-    //         Document doc = builder.parse("16star.lss");
-
-    //         //set the root node to the root node of the xml tree
-    //         Node root_node = doc.getElementsByTagName("Run").item(0);
-    //         target_name = "SplitTime";
-    //         target_attribute = "Personal Best";
-
-    //         //find the node with name target
-    //         findNode(root_node, target_name, target_attribute);
-
-    //         // //debug print all children of the found node
-    //         // for (int i = 0; i < found_node.getChildNodes().getLength(); i++)
-    //         // {
-    //         //     System.out.println(found_node.getChildNodes().item(i) + " " + i);
-    //         // }
-            
-    //     }
-    //     catch(Exception e)
-    //     {
-    //         e.printStackTrace();
-    //         System.exit(1);
-    //     }
-    // }
-
     public void findNode(Node n, String target_name, String target_attribute)
     {
         String curr_name = n.getNodeName();
