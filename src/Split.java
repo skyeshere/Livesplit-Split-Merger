@@ -1,17 +1,21 @@
+import org.w3c.dom.Node;
+
 public class Split 
 {    
     String split_name;
     String split_gold;
     String split_pb;
-    String split_icon;
+    Node split_icon;
 
     public Split()
     {
         this.split_name = "";
         this.split_gold = "";
         this.split_pb   = "";
+        this.split_icon = null;
     }
 
+    //GETTERS
     public String getSplitName()
     {
         return this.split_name;
@@ -27,6 +31,12 @@ public class Split
         return this.split_pb;
     }
 
+    public Node getSplitIcon()
+    {
+        return this.split_icon;
+    }
+
+    //SETTERS
     public void setSplitName(String name)
     { 
         split_name = name;
@@ -42,4 +52,8 @@ public class Split
         split_pb = pb;
     }
 
+    public void setSplitIcon(Node icon)
+    {
+        split_icon = icon;
+    }
 }

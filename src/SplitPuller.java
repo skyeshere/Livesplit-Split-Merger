@@ -87,6 +87,18 @@ public class SplitPuller
             split.setSplitGold(found_node.getTextContent());
             found_node = null;
 
+            target_name = "Icon";
+            tt.findNode(single_segment, target_name, "");
+            found_node = tt.getFoundNode();
+
+            if (found_node.getTextContent() != null)
+            {
+                split.setSplitIcon(found_node.cloneNode(true));
+            }
+
+            found_node = null;
+            tt.setFoundNodeNull();
+
             if (import_pb) //if import_pb == true
             {
                 target_name = "SplitTime";
@@ -157,7 +169,7 @@ public class SplitPuller
             else if (name.charAt(0) == '-' && i == splits.getContainer().size() - 1)
             {
                 //String cleaned = "{Subsplit}" + name.substring(1).trim(); //add the {subsplit} to the start of the split name
-                if( splits.getGame().equals(""))
+                if (splits.getGame().equals(""))
                     splits.getContainer().get(i).setSplitName("{Subsplit}" + name.substring(1).trim());
 
                 else

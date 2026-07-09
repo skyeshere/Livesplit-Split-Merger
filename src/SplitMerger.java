@@ -6,8 +6,11 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
+import org.w3c.dom.CharacterData;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.w3c.dom.Text;
+import org.w3c.dom.CDATASection;
 import java.util.regex.*;
 import java.util.Scanner;
 import java.time.*;
@@ -66,7 +69,8 @@ public class SplitMerger
             /* merge all split files, in order, into the empty split file */
             String tmp_name = "";
             String tmp_gold = "";
-            String tmp_pb   = "";
+            Node tmp_icon = null;
+            String tmp_pb = "";
 
             total_elapsed_time = total_elapsed_time.parse("00:00:00.00000");
             for (int i = 0; i < splits_queue.size(); i++) //need index from this loop
@@ -77,6 +81,7 @@ public class SplitMerger
                 {
                     tmp_name = split.getSplitName();
                     tmp_gold = split.getSplitGold();
+                    tmp_icon = split.getSplitIcon();
                     tmp_pb   = split.getSplitPB();
                     
                     System.out.println("Merging: " + tmp_name);
@@ -99,6 +104,21 @@ public class SplitMerger
 
                     found_node.setTextContent(tmp_gold);
                     found_node = null;
+
+                    //set icon if needed
+                    if(tmp_icon != null)
+                    {   
+                        // target_name = "Icon";
+                        // tt.findNode(split_copy, target_name, "");
+
+                        // found_node = tt.getFoundNode();
+                        // tt.setFoundNodeNull();
+
+                        // Node new_icon_node = doc.adoptNode(tmp_icon);
+
+                        // found_node.appendChild(tmp_icon);
+                        // found_node = null;
+                    }
 
                     if (import_pb)
                     {

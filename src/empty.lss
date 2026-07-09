@@ -23,17 +23,14 @@
     <Segment>
       <Name>
       </Name>
-      <Icon />
-
+      <Icon/>
       <SplitTimes>
         <SplitTime name="Personal Best">
           <RealTime></RealTime>
         </SplitTime>
-
         <SplitTime name="Sum of PBs">
           <RealTime>00:00:00</RealTime>
         </SplitTime>
-
       </SplitTimes>
 
       <BestSegmentTime>
