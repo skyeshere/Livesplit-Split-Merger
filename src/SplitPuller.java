@@ -76,15 +76,28 @@ public class SplitPuller
             found_node = tt.getFoundNode();
             tt.setFoundNodeNull();
 
-            split.setSplitName(found_node.getTextContent());
+            if (found_node.getTextContent() != null)
+            {
+                split.setSplitName(found_node.getTextContent());
+            }
+            else //why arent you naming your splits silly boy
+            {
+                split.setSplitName("NAME THIS SPLIT, MAN");
+            }
+            
             found_node = null;
 
             target_name = "BestSegmentTime";
             tt.findNode(single_segment, target_name, "");
             found_node = tt.getFoundNode().getChildNodes().item(1);
+
+            if (found_node != null)
+            {
+                split.setSplitGold(found_node.getTextContent());
+            }
+
             tt.setFoundNodeNull();
 
-            split.setSplitGold(found_node.getTextContent());
             found_node = null;
 
             target_name = "Icon";
