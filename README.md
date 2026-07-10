@@ -5,6 +5,12 @@ Welcome to the Repo! I'm sorry it is such a mess, it will not get better.
 This aim of this project is to make a program that merges multiple livesplit files together into one.
 This would be useful for mutligame runners, such as people who run the Multi Mario 602.
 
+## Features
+- Automatically imports all of your golds
+- Puts each game/split file into its own subsplit
+- Choice to transfer all of your individual PB split times into their own comparison
+
+
 ## Dependencies
 [Latest version of Java SE](https://www.oracle.com/java/technologies/downloads/#java26) is recommended
 
