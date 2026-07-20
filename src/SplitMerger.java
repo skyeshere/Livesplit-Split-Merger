@@ -108,16 +108,16 @@ public class SplitMerger
                     //set icon if needed
                     if(tmp_icon != null)
                     {   
-                        // target_name = "Icon";
-                        // tt.findNode(split_copy, target_name, "");
+                        target_name = "Icon";
+                        tt.findNode(split_copy, target_name, "");
 
-                        // found_node = tt.getFoundNode();
-                        // tt.setFoundNodeNull();
+                        found_node = tt.getFoundNode();
+                        tt.setFoundNodeNull();
 
-                        // Node new_icon_node = doc.adoptNode(tmp_icon);
+                        Node new_icon_node = doc.createCDATASection(tmp_icon);
 
-                        // found_node.appendChild(tmp_icon);
-                        // found_node = null;
+                        found_node.appendChild(new_icon_node);
+                        found_node = null;
                     }
 
                     if (import_pb)

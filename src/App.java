@@ -1,9 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 
 public class App 
@@ -43,7 +39,7 @@ public class App
             System.out.println("Consider donating! You can do that on https://streamelements.com/skyeves/tip");
         }
 
-        System.out.println("Welcome to the spit merger! Please note: You may have to format your splits after merging depending on your needs. \n");
+        System.out.println("Welcome to the split merger! Please note: You may have to format your splits after merging depending on your needs. \n");
         System.out.println("Please enter the names of the split files you want to merge (including the `.lss` file extension). Press 'Enter' with no input to continue.");
         
         int number_of_splits = 0;

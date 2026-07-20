@@ -5,14 +5,14 @@ public class Split
     String split_name;
     String split_gold;
     String split_pb;
-    Node split_icon;
+    String split_icon;
 
     public Split()
     {
         this.split_name = "";
         this.split_gold = "";
         this.split_pb   = "";
-        this.split_icon = null;
+        this.split_icon = "";
     }
 
     //GETTERS
@@ -31,29 +31,29 @@ public class Split
         return this.split_pb;
     }
 
-    public Node getSplitIcon()
+    public String getSplitIcon()
     {
         return this.split_icon;
     }
 
-    //SETTERS
+    //SETTERS -- i know `this.` isnt needed (i think, )
     public void setSplitName(String name)
     { 
-        split_name = name;
+        this.split_name = name;
     }
 
     public void setSplitGold(String gold)
     {
-        split_gold = gold;
+        this.split_gold = gold;
     }
 
     public void setSplitPB(String pb)
     {
-        split_pb = pb;
+        this.split_pb = pb;
     }
 
-    public void setSplitIcon(Node icon)
+    public void setSplitIcon(String icon)
     {
-        split_icon = icon;
+        this.split_icon = icon;
     }
 }

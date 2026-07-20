@@ -106,7 +106,7 @@ public class SplitPuller
 
             if (found_node.getTextContent() != null)
             {
-                split.setSplitIcon(found_node.cloneNode(true));
+                split.setSplitIcon(found_node.getTextContent());
             }
 
             found_node = null;
