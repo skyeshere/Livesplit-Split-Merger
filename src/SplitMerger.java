@@ -1,19 +1,9 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
-import org.w3c.dom.CharacterData;
 import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
-import org.w3c.dom.CDATASection;
-import java.util.regex.*;
-import java.util.Scanner;
-import java.time.*;
 
 public class SplitMerger 
 {
@@ -81,7 +71,7 @@ public class SplitMerger
                 {
                     tmp_name = split.getSplitName();
                     tmp_gold = split.getSplitGold();
-                    tmp_icon = split.getSplitIcon();
+                    // tmp_icon = split.getSplitIcon();
                     tmp_pb   = split.getSplitPB();
                     
                     System.out.println("Merging: " + tmp_name);
@@ -106,19 +96,19 @@ public class SplitMerger
                     found_node = null;
 
                     //set icon if needed
-                    if(tmp_icon != null)
-                    {   
-                        target_name = "Icon";
-                        tt.findNode(split_copy, target_name, "");
+                    // if(tmp_icon != null)
+                    // {   
+                    //     target_name = "Icon";
+                    //     tt.findNode(split_copy, target_name, "");
 
-                        found_node = tt.getFoundNode();
-                        tt.setFoundNodeNull();
+                    //     found_node = tt.getFoundNode();
+                    //     tt.setFoundNodeNull();
 
-                        Node new_icon_node = doc.createCDATASection(tmp_icon);
+                    //     Node new_icon_node = doc.createCDATASection(tmp_icon);
 
-                        found_node.appendChild(new_icon_node);
-                        found_node = null;
-                    }
+                    //     found_node.appendChild(new_icon_node);
+                    //     found_node = null;
+                    // }
 
                     if (import_pb)
                     {

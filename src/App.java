@@ -40,7 +40,7 @@ public class App
         }
 
         System.out.println("Welcome to the split merger! Please note: You may have to format your splits after merging depending on your needs. \n");
-        System.out.println("Please enter the names of the split files you want to merge (including the `.lss` file extension). Press 'Enter' with no input to continue.");
+        System.out.println("Please enter the names of the split files you want to merge (including the `.lss` file extension).");
         
         int number_of_splits = 0;
         String result = "";
